@@ -1,0 +1,12 @@
+body {
+	font-size: 17px;
+	font-family: ms pgothic;
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+main{
+	max-width: 600px;
+	margin:auto;
+	padding:10px;
+}
