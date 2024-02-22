@@ -6,7 +6,17 @@ body {
 }
 
 main{
+	background:white;
 	max-width: 600px;
 	margin:auto;
 	padding:10px;
+	border:1px dashed black;
+}
+
+.icon{
+	transition-duration: 1s;
+}
+
+.icon:hover{
+	rotate:350deg;
 }
