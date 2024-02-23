@@ -8,6 +8,7 @@
 
 h1 {
 	color: var(--yellow);
+	line-height: normal;
 }
 
 h2 {
@@ -18,14 +19,14 @@ h3 {
 	color: var(--pink);
 }
 
-li{
-	margin-top:10px;
+li {
+	margin-top: 10px;
 }
 
 body {
 	font-size: 17px;
 	line-height: 20px;
-	word-spacing:3px;
+	word-spacing: 3px;
 	font-family: natsuzemi, ms pgothic, arial;
 	word-wrap: break-word;
 	word-break: normal;
@@ -54,7 +55,7 @@ header {
 aside {
 	position: fixed;
 	right: 20px;
-	top:20px;
+	top: 20px;
 	padding: 10px;
 	max-height: 300px;
 	overflow: auto;
@@ -137,9 +138,10 @@ footer {
 		max-width: 100%;
 		margin: 20px 10px 0px 10px;
 		right: 0px;
+		top: 0px;
 	}
-	
-	main{
+
+	main {
 		margin-bottom: 70px;
 	}
 
@@ -152,8 +154,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-	body{
+	body {
 		font-family: arial;
-		font-size:14px;
+		font-size: 14px;
 	}
 }
