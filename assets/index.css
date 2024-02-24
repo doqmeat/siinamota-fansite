@@ -24,7 +24,7 @@ li {
 }
 
 body {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 20px;
 	word-spacing: 3px;
 	font-family: natsuzemi, ms pgothic, arial;
@@ -57,6 +57,7 @@ aside {
 	right: 20px;
 	top: 20px;
 	padding: 10px;
+	max-width: 300px;
 	max-height: 300px;
 	overflow: auto;
 }
@@ -66,19 +67,24 @@ aside h3 {
 }
 
 nav {
-	background: white;
+	border: 0px;
+	border-top: 2px solid var(--yellow);
+	background: var(--green);
+	color: white;
 	text-align: center;
 	z-index: 3;
 	width: 100%;
 	position: fixed;
-	bottom: 1px;
+	bottom: 0px;
 	padding: 5px;
 	overflow: auto;
 	border-radius: 0px;
 }
 
 nav a {
-	color: var(--red);
+	padding: 0 5px 0 0;
+	color: white;
+	border-radius: 5px;
 	padding-left: 10px;
 	text-decoration: none;
 }
@@ -145,17 +151,9 @@ footer {
 		margin-bottom: 70px;
 	}
 
-	nav {
-		border-bottom: 1px dashed var(--purple);
-	}
-
 }
 
-
-@media only screen and (max-width: 600px) {
-
-	body {
-		font-family: arial;
-		font-size: 14px;
-	}
+@font-face {
+	font-family: 'natsuzemi';
+	src: url('/assets/natsuzemi.ttf');
 }
