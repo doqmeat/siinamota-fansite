@@ -30,7 +30,7 @@ body {
 	font-family: natsuzemi, ms pgothic, arial;
 	word-wrap: break-word;
 	word-break: normal;
-	background: url(sepia-bg.jpg) no-repeat left bottom fixed;
+	background: url(sepia-bg.png) no-repeat left bottom fixed;
 	background-size: cover;
 	margin: 0px;
 }
