@@ -1,5 +1,4 @@
-# hourlysiinamota
-a siinamota song bot i run on twitter
+a siinamota fansite i run!
 
-## more info about this bot can be found on [notion](https://sepiarecord.notion.site/sepiarecord/siinamota-song-bot-25c70630d2dc4200aac3f518afba34f6)
-while i work on making a website on github pages for the bot's info
+the lack of siinamota wiki's inspired me to start this site :)
+currently on <a href="https://sepiarecord.notion.site/homepage-6242b9a7ce844610bdf2a9187a0a1bfb">notion</a> while i get the website ready
