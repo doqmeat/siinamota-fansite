@@ -6,6 +6,11 @@
 	--purple: #745562;
 }
 
+@font-face {
+  font-family: natsuzemi;
+  src: url(natsuzemi.ttf);
+}
+
 h1 {
 	color: var(--yellow);
 	line-height: normal;
