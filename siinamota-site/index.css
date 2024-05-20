@@ -20,6 +20,7 @@ h3 {
 }
 
 li {
+	list-style-position: inside;
 	margin-top: 10px;
 }
 
@@ -30,18 +31,15 @@ body {
 	font-family: natsuzemi, ms pgothic, arial;
 	word-wrap: break-word;
 	word-break: normal;
-	background: url(!g/sepia-bg.png) no-repeat left bottom fixed;
-	background-size: cover;
 	margin: 0px;
 }
 
-main,
 nav,
 aside,
-header {
+header,
+.box {
 	border-radius: 20px;
 	background: rgb(255, 255, 255, 0.9);
-	color: black;
 	border: 1px dashed var(--pink);
 }
 
@@ -49,7 +47,7 @@ header {
 	max-width: 600px;
 	padding: 10px;
 	overflow: hidden;
-	margin: 20px 0 0px 30px;
+	margin: 20px 0 0px 60px;
 }
 
 aside {
@@ -93,10 +91,10 @@ nav a::before {
 	content: '～';
 }
 
-main {
+.box {
 	position: relative;
 	max-width: 600px;
-	margin: 20px 0 50px 30px;
+	margin: 20px 0 20px 60px;
 	padding: 10px;
 }
 
@@ -112,13 +110,13 @@ a {
 	text-decoration: underline;
 	color: var(--yellow);
 	font-weight: bold;
-	transition-duration: 0.3s;
+	transition-duration: 0.1s;
+	padding: 1px;
 }
 
 a:hover {
-	letter-spacing: 2px;
+	border-radius: 10px;
 	background: var(--purple);
-	text-decoration: wavy underline;
 }
 
 .icon {
@@ -129,26 +127,22 @@ a:hover {
 	rotate: 350deg;
 }
 
-footer {
+#footer {
 	text-align: center;
-	font-weight: bold;
 	color: var(--purple);
+	margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 1040px) {
 
 	aside,
-	main,
-	header {
+	header,
+	.box {
 		position: relative;
 		max-width: 100%;
 		margin: 20px 10px 0px 10px;
 		right: 0px;
 		top: 0px;
-	}
-
-	main {
-		margin-bottom: 70px;
 	}
 
 }
