@@ -9,8 +9,21 @@
 	transition-duration: 0.5s;
 }
 
-li a {
+li button {
+	background: transparent;
+	border: none;
+	font-family: natsuzemi;
 	cursor: help;
+	color: var(--yellow);
+	font-size: 15px;
+}
+
+li button:hover {
+	color: var(--purple);
+}
+
+li button:focus {
+	color: var(--green);
 }
 
 .x {

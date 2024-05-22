@@ -4,6 +4,7 @@
 	--yellow: #D6A676;
 	--green: #949561;
 	--purple: #745562;
+	--fonts: natsuzemi, ms pgothic, arial;
 }
 
 h1 {
@@ -28,7 +29,7 @@ body {
 	font-size: 16px;
 	line-height: 20px;
 	word-spacing: 3px;
-	font-family: natsuzemi, ms pgothic, arial;
+	font-family: var(--fonts);
 	word-wrap: break-word;
 	word-break: normal;
 	margin: 0px;
@@ -127,7 +128,7 @@ a:hover {
 	rotate: 350deg;
 }
 
-#footer {
+footer#footer {
 	text-align: center;
 	color: var(--purple);
 	margin-bottom: 80px;
@@ -153,6 +154,8 @@ a:hover {
 		max-width: 100%;
 		margin: 20px 10px 0px 10px;
 		right: 0px;
+		left: 0px;
+		bottom: 0px;
 		top: 0px;
 	}
 
