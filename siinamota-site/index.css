@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	--red: #8A3842;
 	--pink: #B76E68;

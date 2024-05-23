@@ -1,0 +1,47 @@
+:root {
+	--teal: #8bc6b2;
+	--brown: #9a7b5e;
+	--red: #c82b2a;
+	--peach: #fbd38d;
+	--l-blue: #a0aec0;
+	--d-blue: #1a202c;
+}
+
+.box,
+header {
+	border: 2px solid var(--l-blue);
+	box-shadow: 1px 1px 7px var(--l-blue) inset;
+	padding: 20px;
+}
+
+body {
+	background: #ffe0a7;
+	background-image: url(!g/bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: contain;
+	color: var(--d-blue);
+}
+
+mark {
+	background: var(--peach);
+}
+
+nav {
+	background: var(--l-blue);
+	text-shadow: none;
+	border-top: none;
+}
+
+h1 {
+	color: var(--red);
+}
+
+h2 {
+	color: var(--l-blue);
+}
+
+a {
+	color: var(--teal);
+}
