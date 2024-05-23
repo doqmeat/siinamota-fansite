@@ -22,6 +22,9 @@ header {
 	color: var(--red);
 }
 
+.form{
+min-height:100px;}
+
 body {
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
