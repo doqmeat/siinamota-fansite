@@ -26,7 +26,7 @@ body {
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: right bottom;
 	background-attachment: fixed;
 	background-size: contain;
 	color: var(--d-blue);
