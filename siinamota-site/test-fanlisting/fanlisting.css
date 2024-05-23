@@ -18,6 +18,10 @@ header {
 	margin-bottom: 60px;
 }
 
+.current {
+	color: var(--red);
+}
+
 body {
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
@@ -48,4 +52,9 @@ h2 {
 
 a {
 	color: var(--teal);
+}
+
+a:hover {
+	background: var(--d-blue);
+	text-decoration: none;
 }
