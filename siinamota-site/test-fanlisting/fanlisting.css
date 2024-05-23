@@ -14,6 +14,10 @@ header {
 	padding: 20px;
 }
 
+.box:last-child {
+	margin-bottom: 60px;
+}
+
 body {
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
