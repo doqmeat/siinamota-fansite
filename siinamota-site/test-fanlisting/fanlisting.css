@@ -27,8 +27,9 @@ header {
 	color: var(--red);
 }
 
-.form{
-min-height:200px;}
+.form {
+	min-height: 200px;
+}
 
 body {
 	background: #ffe0a7;
