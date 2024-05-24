@@ -7,6 +7,11 @@
 	--d-blue: #1a202c;
 }
 
+::selection {
+	background: var(--red);
+	color: var(--peach);
+}
+
 .box,
 header {
 	border: 2px solid var(--l-blue);

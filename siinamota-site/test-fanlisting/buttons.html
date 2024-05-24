@@ -8,13 +8,25 @@ started working on this since: 23.may.24 -->
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/x-icon" href="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>i walk because i was born - buttons</title>
+	<title>siinamota fanlisting - buttons</title>
 	<link href="/!f/fonts/stylesheet.css" rel="stylesheet">
 	<link href="/index.css" rel="stylesheet">
 	<link href="fanlisting.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script src="/!f/tooltip-jquary.js"></script>
 	<script src="/!f/tooltip.js"></script>
+	<style>
+		textarea {
+			width: 100%;
+			background: var(--peach);
+			font-family: var(--fonts);
+			font-size: 12px;
+			border-style: dashed;
+			border-color: var(--red);
+			border-radius: 10px;
+		}
+
+	</style>
 </head>
 
 <body>
@@ -26,19 +38,28 @@ started working on this since: 23.may.24 -->
 		<a href="update.html">update</a>
 		<a href="fans.html">fans</a>
 		<a href="about.html">about</a>
-		
+
 	</nav>
 
 	<header>
 
 		<h1>buttons</h1>
-		<p>graphics to put on your website!</p>
+		<p>graphics to put on your website that links back to the fanlisting!</p>
 	</header>
 
 	<main>
 
-		<div id="buttons" class="box">
+		<div id="code" class="box">
+			<h2>code</h2>
+			<p>you can copy paste this code and then chage "IMG-URL" to the one you saved to your server!</p>
+			<textarea><a href="https://siinamota.doqmeat.com/fanlisting" target="_blank"><img src="IMG-URL" alt="siinamota fanlisting"></a></textarea>
+		</div>
 
+		<div id="50px" class="box">
+			<h2>50 x 50</h2>
+			<img src="buttons/50x50/1.png" alt="50 x 50 button">
+			<img src="buttons/50x50/2.png" alt="50 x 50 button">
+			<img src="buttons/50x50/3.png" alt="50 x 50 button">
 		</div>
 
 	</main>
