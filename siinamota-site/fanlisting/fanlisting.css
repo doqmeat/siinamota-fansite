@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-	color: var(--peach);
+	color: var(--brown);
 	text-align: center;
 }
 
@@ -142,7 +142,7 @@ nav a::before {
 	padding: 5px;
 	border-radius: 10px;
 	color: white;
-	background: var(--pink);
+	background: var(--brown);
 }
 
 @media only screen and (max-width: 1040px) {
