@@ -13,6 +13,31 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script src="/!f/tooltip-jquary.js"></script>
 	<script src="/!f/tooltip.js"></script>
+	<style>
+		.cover {
+			display: inline;
+			transition-delay: 0.5s;
+		}
+
+
+		.cover img {
+			display: none;
+			z-index: 10;
+		}
+
+		.cover:hover img {
+			position: absolute;
+			border: 2px solid var(--teal);
+			border-radius: 10px;
+			display: inline;
+			width: 300px;
+		}
+
+		li a {
+			text-decoration: none;
+		}
+
+	</style>
 </head>
 
 <body>
@@ -35,7 +60,7 @@
 
 	<main>
 
-		<div id="siinamota" class="box">
+		<div id="siinamota" class="box" style="overflow:visible;">
 			<h2><i>who is siinamota?</i></h2>
 			<img title="picture is from cinra.net" src="!g/siina-pic.jpg" alt="picture of mizoguchi ryo wearing a red jacket with a yellow background" align="left" style="margin:10px;border-radius: 10px;" width="30%">
 			<p><b>siinamota (椎名もた)</b> - real name: <u>mizoguchi ryo</u> - was born on march 09, 1995, was a japanese artist who mostly <mark>composed and produced vocaloid</mark> songs mainly featuring hatsune miku throughout his career. he also used other vocaloids such as kagamine rin, gumi, and megurine luka. his discography is full of energetic j-pop and j-rock songs that are heavily influenced by electronic genres.</p>
@@ -46,20 +71,48 @@
 
 			<h3>discography</h3>
 			<p><small>all of these links lead to youtube!</small></p>
-			<li><a title="album" href="https://youtu.be/XQcVYAWbLAA" target="_blank">sepia record</a> (セピアレコード ) - 2010</li>
-			<li><a title="single" href="https://youtu.be/6hn-lXh4Myk" target="_blank">strobe last.ep</a> - 2011</li>
-			<li><a title="album" href="https://youtu.be/jP0miomUpnA" target="_blank">award strobe hello</a> - 2011</li>
-			<li><a title="album" href="https://youtu.be/EvHETJ16iyA" target="_blank">sepia record (remodel)</a> - 2011</li>
-			<li><a title="EP" href="https://youtube.com/playlist?list=OLAK5uy_kg9xaQaUAh6bftJq4TyyAS67IgxrEIrRg&si=Fay_UizBTEoOYr7M" target="_blank">alpa</a> - 2012</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_kG_d4HL0rWxITVBkbuiJdAS-7chEFZRg4&si=vt45jPaZL_pFlcUS" target="_blank">yume no manimani (夢のまにまに)</a> - 2012</li>
-			<li><a title="album" href="https://youtu.be/Cap3nZPo_Ps" target="_blank">1, repeat 2, sleeping 3, OVERDOSE</a> - 2012</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_lMJRDJtJjAx8DABdSfHCHnZzep9hDTxnw&si=WkDuuPlCv7soGkHk" target="_blank">kokegane no uta (コケガネのうた)</a> - 2013</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=PLGe0DVsxXHutoWegj1zDKOzA9Z7OGi84h&si=RWT0zEMjBqyimTzG" target="_blank">powapoworks</a> - 2013</li>
-			<li><a title="EP" href="https://youtube.com/playlist?list=OLAK5uy_mtZe4QtRL_IHudjXKK-PiNBDU4SVg2t1A&si=y8iew-OqGdnCCAX9" target="_blank">2 LINES</a> - 2013</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_mR5NXSKCHI_hNDZDnXdk5HgA5_AW7sWo0&si=vEhidJqRUsBrt75o" target="_blank">alterour setsuna pop</a> (アルターワー・セツナポップ / alter world setsuna pop) - 2013</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_ln7xPXMwqIPp8EWJQRCQvJv4MpAjg6NVE&si=I5_DAw13KNCTwamJ" target="_blank">ikiru</a> (生きる / Alive) - 2015</li>
-			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_mNHaxCiEp6kBdwGBggncaJDQgbRtJB8a8&si=w0WOnP0K9wtRwH3H" target="_blank">poncutsu odyssey</a> (ポンコツ・オデッセイ) - 2015</li>
-			<li><a title="posthumous album" href="https://youtube.com/playlist?list=OLAK5uy_kgRIuWpVz2qHo6UQ52MzYoMccVEJaucaE&si=gWT1Vk_plznRrPu-" target="_blank">therefor.</a> - 2019</li>
+			<li><a title="album" href="https://youtu.be/XQcVYAWbLAA" target="_blank">
+					<div class="cover">sepia record<img src="!g/sepia-record.png" alt="sepia record"></div>
+				</a> (セピアレコード ) - 2010</li>
+			<li><a title="single" href="https://youtu.be/6hn-lXh4Myk" target="_blank">
+					<div class="cover">strobe last.ep<img src="!g/strobe-last.png" alt="strobe last"></div>
+				</a> - 2011</li>
+			<li><a title="album" href="https://youtu.be/jP0miomUpnA" target="_blank">
+					<div class="cover">award strobe hello<img src="!g/award-hello-strobe.png" alt="award strobe hello"></div>
+				</a> - 2011</li>
+			<li><a title="album" href="https://youtu.be/EvHETJ16iyA" target="_blank">
+					<div class="cover">sepia record (remodel)<img src="!g/sepia-remodel.png" alt="sepia record (remodel)"></div>
+				</a> - 2011</li>
+			<li><a title="EP" href="https://youtube.com/playlist?list=OLAK5uy_kg9xaQaUAh6bftJq4TyyAS67IgxrEIrRg&si=Fay_UizBTEoOYr7M" target="_blank">
+					<div class="cover">alpa<img src="!g/alpa.png" alt="alpa"></div>
+				</a> - 2012</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_kG_d4HL0rWxITVBkbuiJdAS-7chEFZRg4&si=vt45jPaZL_pFlcUS" target="_blank">
+					<div class="cover">yume no manimani<img src="!g/yume-no-manimani.png" alt="yume no manimani"></div>
+				</a> (夢のまにまに) - 2012</li>
+			<li><a title="album" href="https://youtu.be/Cap3nZPo_Ps" target="_blank">
+					<div class="cover">1, repeat 2, sleeping 3, OVERDOSE<img src="!g/overdose.png" alt="1, repeat 2, sleeping 3, OVERDOSE"></div>
+				</a> - 2012</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_lMJRDJtJjAx8DABdSfHCHnZzep9hDTxnw&si=WkDuuPlCv7soGkHk" target="_blank">
+					<div class="cover">kokegane no uta<img src="!g/kokegane-no-uta.png" alt="kokegane no uta"></div>
+				</a> (コケガネのうた) - 2013</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=PLGe0DVsxXHutoWegj1zDKOzA9Z7OGi84h&si=RWT0zEMjBqyimTzG" target="_blank">
+					<div class="cover">powapoworks<img src="!g/powapoworks.png" alt="powapoworks"></div>
+				</a> - 2013</li>
+			<li><a title="EP" href="https://youtube.com/playlist?list=OLAK5uy_mtZe4QtRL_IHudjXKK-PiNBDU4SVg2t1A&si=y8iew-OqGdnCCAX9" target="_blank">
+					<div class="cover">2 LINES<img src="!g/2lines.png" alt="2 LINES"></div>
+				</a> - 2013</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_mR5NXSKCHI_hNDZDnXdk5HgA5_AW7sWo0&si=vEhidJqRUsBrt75o" target="_blank">
+					<div class="cover">alterour setsuna pop<img src="!g/setsuna-pop.png" alt="alterour setsuna pop"></div>
+				</a> (アルターワー・セツナポップ / alter world setsuna pop) - 2013</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_ln7xPXMwqIPp8EWJQRCQvJv4MpAjg6NVE&si=I5_DAw13KNCTwamJ" target="_blank">
+					<div class="cover">ikiru<img src="!g/ikiru.png" alt="ikiru"></div>
+				</a> (生きる / Alive) - 2015</li>
+			<li><a title="album" href="https://youtube.com/playlist?list=OLAK5uy_mNHaxCiEp6kBdwGBggncaJDQgbRtJB8a8&si=w0WOnP0K9wtRwH3H" target="_blank">
+					<div class="cover">poncutsu odyssey<img src="!g/odyssey.png" alt="poncutsu odyssey"></div>
+				</a> (ポンコツ・オデッセイ) - 2015</li>
+			<li><a title="posthumous album" href="https://youtube.com/playlist?list=OLAK5uy_kgRIuWpVz2qHo6UQ52MzYoMccVEJaucaE&si=gWT1Vk_plznRrPu-" target="_blank">
+					<div class="cover">therefor.<img src="!g/therefor.png" alt="therefor."></div>
+				</a> - 2019</li>
 			<h3>sources</h3>
 			<li>siinamota portrait pic source is from <a href="https://www.cinra.net/article/interview-2012-03-01-000000-php" target="_blank">cinra.net</a></li>
 			<li><a href="https://siinamota.com" target="_blank">siinamota.com</a> / <a href="https://jpop.fandom.com/wiki/Siinamota" target="_blank">jpop wiki</a></li>
