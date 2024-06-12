@@ -64,7 +64,6 @@ body {
 
 a {
 	text-decoration: underline;
-	font-weight: bold;
 	transition-duration: 0.1s;
 	padding: 1px;
 	border-radius: 5px;
@@ -145,9 +144,8 @@ nav a::before {
 	background: var(--brown);
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 750px) {
 
-	aside,
 	header,
 	.box {
 		position: relative;
