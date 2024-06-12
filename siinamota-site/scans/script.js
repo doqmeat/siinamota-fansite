@@ -1,3 +1,19 @@
+//thank u to stackoverflow always https://stackoverflow.com/questions/26672104/get-attributes-value-for-multiple-class
+
+var scanDiv = document.getElementById("picture-popup");
+var scanPic = document.getElementsByClassName("scans");
+var popupPic = document.getElementById("picture-img");
+
+for (var i = 0; i < scanPic.length; i++) {
+	var scanPicClick = scanPic[i];
+	scanPicClick.onclick = function (windowpopup) {
+		scanDiv.style.display = "block";
+		popupPic.src = this.src;
+		popupPic.alt = this.alt;
+	}
+}
+
+
 function toggle(cds) {
 	var i;
 	var popUp = document.getElementById(cds);
@@ -11,7 +27,7 @@ function toggle(cds) {
 	}
 }
 
-function toggleClose(cds) {
-	var popUp = document.getElementById(cds);
+function toggleClose(ids) {
+	var popUp = document.getElementById(ids);
 	popUp.style.display = "none";
 }

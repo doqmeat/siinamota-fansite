@@ -11,6 +11,13 @@
 	--fonts: natsuzemi, ms pgothic, arial;
 }
 
+mark {
+	background: var(--pink);
+	color: white;
+	border-radius: 3px;
+	padding: 0px 1px;
+}
+
 h1 {
 	color: var(--yellow);
 	line-height: normal;

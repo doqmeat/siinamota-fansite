@@ -1,0 +1,36 @@
+		body {
+			background: #5e9392;
+			background-image: url(!f/index/strobe-hello.png);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			background-size: contain;
+		}
+
+		#navi {
+			position: fixed;
+			top: 10px;
+			right: 0px;
+			left: 650px;
+			max-width: 200px;
+			width: 100%;
+		}
+
+		#counters p {
+			text-align: center;
+		}
+
+		@media only screen and (max-width: 1040px) {
+
+			#navi {
+				position: relative;
+				max-width: 100%;
+				width: auto;
+				margin: 20px 10px 0px 10px;
+				right: 0px;
+				left: 0px;
+				bottom: 0px;
+				top: 0px;
+			}
+
+		}

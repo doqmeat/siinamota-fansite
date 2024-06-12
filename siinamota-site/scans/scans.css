@@ -9,6 +9,28 @@
 	transition-duration: 0.5s;
 }
 
+.scans {
+	width: 100%;
+}
+
+#picture-popup {
+	display: none;
+	position: absolute;
+	margin: 10px;
+	top: 10px;
+	left: 10px;
+	width: 97%;
+	height: 95%;
+	max-width: 100%;
+	overflow: scroll;
+	text-align: center
+}
+
+#picture-popup img {
+	max-width: 90%;
+	height: 90%;
+}
+
 li button {
 	background: transparent;
 	border: none;
