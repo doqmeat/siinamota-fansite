@@ -11,24 +11,24 @@
 
 .scans {
 	width: 100%;
+	cursor: zoom-in;
 }
 
 #picture-popup {
 	display: none;
-	position: absolute;
+	position: fixed;
 	margin: 10px;
 	top: 10px;
 	left: 10px;
 	width: 97%;
 	height: 95%;
-	max-width: 100%;
+	max-width: 90%;
 	overflow: scroll;
 	text-align: center
 }
 
 #picture-popup img {
-	max-width: 90%;
-	height: 90%;
+	max-width: 100%;
 }
 
 li button {
