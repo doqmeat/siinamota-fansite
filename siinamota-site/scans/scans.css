@@ -1,6 +1,7 @@
 .pop-up {
 	position: absolute;
 	display: none;
+	padding: 20px;
 	top: 100px;
 	left: 700px;
 	height: 500px;
@@ -14,6 +15,10 @@
 	cursor: zoom-in;
 }
 
+figure {
+	margin: 0;
+}
+
 #picture-popup {
 	display: none;
 	position: fixed;
@@ -21,7 +26,7 @@
 	top: 10px;
 	left: 10px;
 	width: 97%;
-	height: 95%;
+	max-height: 95%;
 	max-width: 90%;
 	overflow: scroll;
 	text-align: center
