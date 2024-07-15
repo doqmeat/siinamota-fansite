@@ -3,6 +3,7 @@
 var scanDiv = document.getElementById("picture-popup");
 var scanPic = document.getElementsByClassName("scans");
 var popupPic = document.getElementById("picture-img");
+var captionWin = document.getElementById("caption");
 
 for (var i = 0; i < scanPic.length; i++) {
 	var scanPicClick = scanPic[i];
@@ -10,6 +11,7 @@ for (var i = 0; i < scanPic.length; i++) {
 		scanDiv.style.display = "block";
 		popupPic.src = this.src;
 		popupPic.alt = this.alt;
+		captionWin.innerText = this.alt;
 	}
 }
 
