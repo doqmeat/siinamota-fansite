@@ -156,6 +156,12 @@ footer#footer {
 	background: var(--pink);
 }
 
+.outlink::after {
+	content: "↗";
+	padding-left: 2px;
+	vertical-align: text-bottom
+}
+
 @media only screen and (max-width: 1040px) {
 
 	aside,
