@@ -21,11 +21,11 @@ figure {
 
 #picture-popup {
 	display: none;
-	position: absolute;
-	margin: 10px;
+	position: fixed;
+	margin: 20px;
 	top: 10px;
 	left: 10px;
-	width: 97%;
+	width: 95%;
 height: auto;
 	max-width: 90%;
 	overflow: scroll;
@@ -51,6 +51,17 @@ li button:hover {
 
 li button:focus {
 	color: var(--green);
+}
+
+figure{
+	border:1px solid var(--yellow);
+	padding:20px;
+	margin:20px 0;
+}
+
+figcaption{
+	text-align: center;
+	padding:10px;
 }
 
 .x {
