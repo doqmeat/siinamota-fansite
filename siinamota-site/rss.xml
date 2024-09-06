@@ -5,12 +5,20 @@
 		<title>siinamota fansite</title>
 		<link>https://siinamota.doqmeat.com</link>
 		<description>des' siinamota fansite</description>
-		<item>
+	</channel>
+
+			<item>
+			<title>05.sep.24 - scans page completed</title>
+			<link>https://siinamota.doqmeat.com/scans</link>
+			<description>moved everything from notion of for the scans!!!</description>
+			<pubDate>Fri, 06 Sep 2024 00:06:34 -0400</pubDate>
+		</item>
+
+			<item>
 			<title>10.jun.24 - siinamota fanlisting</title>
-			<link>https://doqmeat.com/vgs</link>
+			<link>https://siinamota.doqmeat.com/fanlisting</link>
 			<description>finished the siinamota fanlisting: i walk because i was born</description>
 			<pubDate>Mon, 10 Jun 2024 15:04:00 -0400</pubDate>
 		</item>
-	</channel>
 
 </rss>
