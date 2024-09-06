@@ -21,7 +21,6 @@
 			background-position: center top;
 			background-size: cover;
 		}
-
 	</style>
 </head>
 
@@ -30,26 +29,26 @@
 		<p><a href="/">homepage</a> &gt;</p>
 		<img src="!g/kokegane-no-uta/img3.jpg" align="left" width="25%" style="margin:10px" alt="picture of kokegane no uta CD">
 		<h1>album scans n pics</h1>
-		<p>scans and pictures of siinamota's CDs, booklets, and misc stuff.</p>
-		<p>currently a WIP!</p>
+		<p>scans and pictures of siinamota's CDs, booklets, and misc stuff. some scanned by me, by others, or taken from listings and other sites.</p>
 	</header>
 
 	<main>
 		<div class="box">
 			<p>if you or someone you know has one of the albums that i'm missing and is willing to take scans (preferably) or pics of everything please feel free to contact me via <a href="mailto:doqmeat@gmailcom">e-mail</a>!</p>
+			<p class="hide">when clicking on a button, scans will appear at the bottom of the box!</p>
 			<h3>completely scanned</h3>
 			<li><button onclick="toggle('kokegane')">コケガネのうた / kokegane no uta</button></li>
 			<li><button onclick="toggle('yume')">夢のまにまに / yume no manimani</button></li>
 			<li><button onclick="toggle('ikiru')">生きる / ikiru</button></li>
 			<li><button onclick="toggle('award-strobe')">award strobe hello</button></li>
 			<li><button onclick="toggle('setsuna-pop-l')">アルターワー･セツナポップ / alterour setsuna pop (limited edition)</button></li>
-			<h3>found pics</h3>
+			<h3>found pics online</h3>
 			<li><button onclick="toggle('repeat-overdose')">1, repeat 2, sleeping 3, overdose</button></li>
 			<li><button onclick="toggle('sepia-record')">sepia record</button></li>
 			<li><button onclick="toggle('sepia-remodel')">sepia record (remodel)</button></li>
-			<li>hepatica</li>
-			<li>poncutsu odyssey</li>
-			<li>powapoworks</li>
+			<li><button onclick="toggle('hepatica')">hepatica</button></li>
+			<li><button onclick="toggle('poncutsu')">poncutsu odyssey</li>
+			<li><button onclick="toggle('powapoworks')">powapoworks</button></li>
 		</div>
 
 		<div id="kokegane" class="pop-up box">
@@ -188,13 +187,46 @@
 			<img class="scans" src="!g/repear-overdose/1.jpg">
 		</div>
 
+		<div id="powapoworks" class="pop-up box">
+			<button onclick="toggleClose('powapoworks')" class="x">x</button>
+			<h2>powapoworks</h2>
+			<p>pictures from <a href="https://web.archive.org/web/20240906025645/https://aucview.com/yahoo/x1068288332/">here</a></p>
+			<figure><img class="scans" src="!g/powapoworks/cover.jpg" alt="front of the jewel case">
+				<figcaption>front of jewel case</figcaption>
+			</figure>
+			<figure><img class="scans" src="!g/powapoworks/back.jpg" alt="the back of the jewel case">
+				<figcaption>back of jewel case</figcaption>
+			</figure>
+			<figure>
+				<img style="max-width:150px" class="scans" src="!g/powapoworks/spine.jpg" alt="spine of the jewel case">
+				<figcaption>the spine</figcaption>
+			</figure>
+			<hr>
+			<p>the following picture is of a signed copy by siinamota that i found on a site but i forgot to archive it.... and it is currently unavailable. here is the <a href="https://com.residentialruin.online/product/24139748843.html" target="_blank">original link</a>.
+				<img src="!g/powapoworks/signed.jpg" class="scans" alt="collage of pictures featuring siinamota's signature">
+		</div>
+
+		<div id="hepatica" class="pop-up box">
+			<button onclick="toggleClose('hepatica')" class="x">x</button>
+			<h2>hepatica</h2>
+			<p>once again forgot to archive the link... <a href="https://hwrot.farbrand.shop/index.php?main_page=product_info&products_id=14375" target="_blank">original link</a>. </p>
+			<img src="!g/hepatica/cover.png" alt="jewel case cover of hepatica" class="scans">
+		</div>
+
+		<div id="poncutsu" class="pop-up box">
+			<button onclick="toggleClose('poncutsu')" class="x">x</button>
+			<h2>poncutsu odyssey</h2>
+			<p>following pictures are from mercari: <a href="https://jp.mercari.com/en/item/m20733530338" target="_blank">original</a> / <a href="https://web.archive.org/web/20240906032825/https://jp.mercari.com/en/item/m20733530338" target="_blank">archived</a></p>
+			<img src="!g/poncutsu/cover.jpg" alt="the front of the jewel case" class="scans">
+			<img src="!g/poncutsu/back.jpg" alt="the back of the jewel case" class="scans">
+			<img src="!g/poncutsu/cd.jpg" alt="jewel case opened exposing the CD" class="scans">
+		</div>
+
 		<footer id="footer" class="box">
-			<p>last updated on: 13.aug.24</p>
-			<p><b>credit:</b> body bg is by <a title="pixiv link" href="https://www.pixiv.net/en/artworks/18997270" target="_blank">momoc</a></p>
+			<p>last updated on: 05.sep.24</p>
+			<p><b>credit:</b> body bg is by <a title="pixiv link" href="https://www.pixiv.net/en/artworks/18997270" target="_blank">momoc</a> for the <i>kokegane no uta</i> album cover.</p>
 		</footer>
-
 	</main>
-
 
 	<div id="picture-popup" class="box">
 		<button onclick="toggleClose('picture-popup')" class="x">x</button>

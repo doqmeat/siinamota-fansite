@@ -1,84 +1,79 @@
 .pop-up {
-	position: absolute;
-	display: none;
-	padding: 20px;
-	top: 100px;
-	left: 700px;
-	height: 500px;
-	overflow: auto;
-	width: 500px;
-	transition-duration: 0.5s;
+  position: absolute;
+  display: none;
+  padding: 20px;
+  top: 100px;
+  left: 700px;
+  height: 500px;
+  overflow: auto;
+  width: 500px;
+  transition-duration: 0.5s;
 }
 
 .scans {
-	width: 100%;
-	cursor: zoom-in;
-}
-
-figure {
-	margin: 0;
+  width: 100%;
+  cursor: zoom-in;
 }
 
 #picture-popup {
-	display: none;
-	position: fixed;
-	margin: 20px;
-	top: 10px;
-	left: 10px;
-	width: 95%;
-height: auto;
-	max-width: 90%;
-	overflow: scroll;
-	text-align: center
+  display: none;
+  position: fixed;
+  margin: 20px;
+  top: 10px;
+  left: 10px;
+  width: 95%;
+  height: auto;
+  max-width: 90%;
+  overflow: auto;
+  text-align: center;
 }
 
 #picture-popup img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 li button {
-	background: transparent;
-	border: none;
-	font-family: natsuzemi;
-	cursor: help;
-	color: var(--yellow);
-	font-size: 15px;
+  background: white;
+  padding: 1px 3px;
+  border-radius: 10px;
+  border: 1px solid var(--yellow);
+  font-family: natsuzemi;
+  cursor: help;
+  color: var(--yellow);
+  font-size: 15px;
 }
 
 li button:hover {
-	color: var(--purple);
+  color: var(--purple);
 }
 
 li button:focus {
-	color: var(--green);
-}
-
-figure{
-	border:1px solid var(--yellow);
-	padding:20px;
-	margin:20px 0;
-}
-
-figcaption{
-	text-align: center;
-	padding:10px;
+  background: var(--green);
+  color: white;
 }
 
 .x {
-	float: right;
-	background: transparent;
-	border: none;
-	font-family: natsuzemi;
-	font-size: 28px;
-	cursor: help;
+  float: right;
+  background: transparent;
+  border: none;
+  font-family: natsuzemi, var(--fonts);
+  font-size: 28px;
+  cursor: help;
+}
+
+.hide {
+  display: none;
 }
 
 @media only screen and (max-width: 1040px) {
-	.pop-up {
-		position: relative;
-		top: 0px;
-		left: 0px;
-		height: auto;
-		width: auto;
-	}
+  .hide {
+    display: block;
+  }
+  .pop-up {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: auto;
+  }
 }
