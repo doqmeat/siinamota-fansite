@@ -26,6 +26,11 @@ body {
   margin: 0px;
 }
 
+::selection {
+  background: var(--purple);
+  color: var(--yellow);
+}
+
 mark {
   background: var(--pink);
   color: white;
