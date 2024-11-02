@@ -5,41 +5,40 @@
 		<title>siinamota fansite</title>
 		<link>https://siinamota.doqmeat.com</link>
 		<description>des' siinamota fansite</description>
+
+		<item>
+			<title>02.nox.24 - info + news page</title>
+			<link>https://siinamota.doqmeat.com/</link>
+			<description>moved index paragragh about fansite to newly created &#x3C;a href=&#x22;/info&#x22;&#x3E;info&#x3C;/a&#x3E; page + created a &#x3C;a href=&#x22;/news&#x22;&#x3E;news&#x3C;/a&#x3E; page + shamelessly copy pasted bio written for fanlisting to the homepage.</description>
+			<pubDate>Sat, 02 Nov 2024 01:06:00 -0400</pubDate>
+		</item>
+
+		<item>
+			<title>02.oct.24 - chatroom</title>
+			<link>https://siinamota.doqmeat.com/chatroom</link>
+			<description>added a chatroom page with a chatbox and a siinamota playlist!</description>
+			<pubDate>Wed, 02 Oct 2024 01:19:34 -0400</pubDate>
+		</item>
+
+		<item>
+			<title>25.sep.24 - interviews now live</title>
+			<link>https://siinamota.doqmeat.com/interviews</link>
+			<description>somewhat finished my interviews page! still need to add the archived links. just in case.</description>
+			<pubDate>Wed, 25 Sep 2024 00:12:34 -0400</pubDate>
+		</item>
+
+		<item>
+			<title>05.sep.24 - scans page completed</title>
+			<link>https://siinamota.doqmeat.com/scans</link>
+			<description>moved everything from notion of for the scans!!!</description>
+			<pubDate>Fri, 06 Sep 2024 00:06:34 -0400</pubDate>
+		</item>
+
+		<item>
+			<title>10.jun.24 - siinamota fanlisting</title>
+			<link>https://siinamota.doqmeat.com/fanlisting</link>
+			<description>finished the siinamota fanlisting: i walk because i was born</description>
+			<pubDate>Mon, 10 Jun 2024 15:04:00 -0400</pubDate>
+		</item>
 	</channel>
-
-	<item>
-		<title>02.nox.24 - info + news page</title>
-		<link>https://siinamota.doqmeat.com/</link>
-		<description>moved index paragragh about fansite to newly created &#x3C;a href=&#x22;/info&#x22;&#x3E;info&#x3C;/a&#x3E; page + created a &#x3C;a href=&#x22;/news&#x22;&#x3E;news&#x3C;/a&#x3E; page + shamelessly copy pasted bio written for fanlisting to the homepage.</description>
-		<pubDate>Sat, 02 Nov 2024 01:06:00 -0400</pubDate>
-	</item>
-
-	<item>
-		<title>02.oct.24 - chatroom</title>
-		<link>https://siinamota.doqmeat.com/chatroom</link>
-		<description>added a chatroom page with a chatbox and a siinamota playlist!</description>
-		<pubDate>Wed, 02 Oct 2024 01:19:34 -0400</pubDate>
-	</item>
-
-	<item>
-		<title>25.sep.24 - interviews now live</title>
-		<link>https://siinamota.doqmeat.com/interviews</link>
-		<description>somewhat finished my interviews page! still need to add the archived links. just in case.</description>
-		<pubDate>Wed, 25 Sep 2024 00:12:34 -0400</pubDate>
-	</item>
-
-	<item>
-		<title>05.sep.24 - scans page completed</title>
-		<link>https://siinamota.doqmeat.com/scans</link>
-		<description>moved everything from notion of for the scans!!!</description>
-		<pubDate>Fri, 06 Sep 2024 00:06:34 -0400</pubDate>
-	</item>
-
-	<item>
-		<title>10.jun.24 - siinamota fanlisting</title>
-		<link>https://siinamota.doqmeat.com/fanlisting</link>
-		<description>finished the siinamota fanlisting: i walk because i was born</description>
-		<pubDate>Mon, 10 Jun 2024 15:04:00 -0400</pubDate>
-	</item>
-
 </rss>
