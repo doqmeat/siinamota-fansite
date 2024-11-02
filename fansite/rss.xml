@@ -8,6 +8,13 @@
 	</channel>
 
 	<item>
+		<title>02.nox.24 - info + news page</title>
+		<link>https://siinamota.doqmeat.com/</link>
+		<description>moved index paragragh about fansite to newly created &#x3C;a href=&#x22;/info&#x22;&#x3E;info&#x3C;/a&#x3E; page + created a &#x3C;a href=&#x22;/news&#x22;&#x3E;news&#x3C;/a&#x3E; page + shamelessly copy pasted bio written for fanlisting to the homepage.</description>
+		<pubDate>Sat, 02 Nov 2024 01:06:00 -0400</pubDate>
+	</item>
+
+	<item>
 		<title>02.oct.24 - chatroom</title>
 		<link>https://siinamota.doqmeat.com/chatroom</link>
 		<description>added a chatroom page with a chatbox and a siinamota playlist!</description>
