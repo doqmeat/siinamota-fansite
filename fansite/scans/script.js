@@ -4,29 +4,27 @@ var scanDiv = document.getElementById("picture-popup");
 var scanPic = document.getElementsByClassName("scans");
 var popupPic = document.getElementById("picture-img");
 var captionWin = document.getElementById("caption");
+let links = document.getElementsByClassName("scanLinks");
+
+for (i = 0; i < links.length; i++) {
+  let linkClick = links[i];
+  linkClick.onclick = function (active) {
+    for (i = 0; i < links.length; i++) {
+      links[i].classList.remove("active");
+    }
+    event.currentTarget.className += " active";
+  };
+}
+document.getElementById("default").className += " active";
 
 for (var i = 0; i < scanPic.length; i++) {
   var scanPicClick = scanPic[i];
-  console.log(scanPicClick);
   scanPicClick.onclick = function (windowpopup) {
     scanDiv.style.display = "block";
     popupPic.src = this.src;
     popupPic.alt = this.alt;
     captionWin.innerText = this.alt;
   };
-}
-
-function toggle(cds) {
-  var i;
-  var popUp = document.getElementById(cds);
-  var notpopUp = document.getElementsByClassName("pop-up");
-  for (i = 0; i < notpopUp.length; i++) {
-    notpopUp[i].style.display = "none";
-  }
-
-  if (popUp.style.display == "none") {
-    popUp.style.display = "block";
-  }
 }
 
 function toggleClose(ids) {

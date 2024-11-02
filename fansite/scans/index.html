@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="!g/kokegane-no-uta/img3.jpg">
+	<link rel="icon" type="image/x-icon" href="!g/icon.png">
 	<title>albums scans</title>
 	<link href="/index.css" rel="stylesheet">
 	<link href="scans.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 <body>
 	<header>
 		<p><a href="/">homepage</a> &gt;</p>
-		<img src="!g/kokegane-no-uta/img3.jpg" align="left" width="25%" style="margin:10px" alt="picture of kokegane no uta CD">
+		<img src="!g/icon.png" align="left" width="25%" style="margin:10px" alt="picture of kokegane no uta CD">
 		<h1>album scans n pics</h1>
 		<p>scans and pictures of siinamota's CDs, booklets, and misc stuff. some scanned by me, by others, or taken from listings and other sites.</p>
 	</header>
@@ -35,195 +35,193 @@
 	<main>
 		<div class="box">
 			<p>if you or someone you know has one of the albums that i'm missing and is willing to take scans (preferably) or pics of everything please feel free to contact me via <a href="mailto:doqmeat@gmailcom">e-mail</a>!</p>
-			<p class="hide">when clicking on a button, scans will appear at the bottom of the box!</p>
+			<p class="hide">click on a release title for the scans to appear.</p>
 			<h3>completely scanned</h3>
-			<li><button onclick="toggle('kokegane')">コケガネのうた / kokegane no uta</button></li>
-			<li><button onclick="toggle('yume')">夢のまにまに / yume no manimani</button></li>
-			<li><button onclick="toggle('ikiru')">生きる / ikiru</button></li>
-			<li><button onclick="toggle('award-strobe')">award strobe hello</button></li>
-			<li><button onclick="toggle('setsuna-pop-l')">アルターワー･セツナポップ / alterour setsuna pop (limited edition)</button></li>
+			<li><a id="default" class="scanLinks" href="#kokegane">コケガネのうた / kokegane no uta</a></li>
+			<li><a class="scanLinks" href="#yume">夢のまにまに / yume no manimani</a></li>
+			<li><a class="scanLinks" href="#ikiru">生きる / ikiru</a></li>
+			<li><a class="scanLinks" href="#award-strobe">award strobe hello</a></li>
+			<li><a class="scanLinks" href="#setsuna-pop-l">アルターワー･セツナポップ / alterour setsuna pop (limited edition)</a></li>
 			<h3>found pics online</h3>
-			<li><button onclick="toggle('repeat-overdose')">1, repeat 2, sleeping 3, overdose</button></li>
-			<li><button onclick="toggle('sepia-record')">sepia record</button></li>
-			<li><button onclick="toggle('sepia-remodel')">sepia record (remodel)</button></li>
-			<li><button onclick="toggle('hepatica')">hepatica</button></li>
-			<li><button onclick="toggle('poncutsu')">poncutsu odyssey</li>
-			<li><button onclick="toggle('powapoworks')">powapoworks</button></li>
+			<li><a class="scanLinks" href="#repeat-overdose">1, repeat 2, sleeping 3, overdose</a></li>
+			<li><a class="scanLinks" href="#sepia-record">sepia record</a></li>
+			<li><a class="scanLinks" href="#sepia-remodel">sepia record (remodel)</a></li>
+			<li><a class="scanLinks" href="#hepatica">hepatica</a></li>
+			<li><a class="scanLinks" href="#poncutsu">poncutsu odyssey</a></li>
+			<li><a class="scanLinks" href="#powapoworks">powapoworks</a></li>
 		</div>
 
-		<div id="kokegane" class="pop-up box">
-			<button onclick="toggleClose('kokegane')" class="x">x</button>
-			<h2>コケガネのうた / kokegane no uta</h2>
-			<p>scans provided by <a href="https://www.instagram.com/visual2remix/" target="_blank">visual2remix</a>! ❣️</p>
-			<p>HD downloads: <a href="https://archive.org/details/kokegane-no-uta-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/uouj37a5ic70f7nxmx1u9/h?rlkey=emlygvld7tzzvkrqwwcqyamxm&dl=0" target="_blank">dropbox</a></p>
-			<img class="scans" src="!g/kokegane-no-uta/img1.jpg" alt="album jewel case front. it has a watercolor like art cover from artist momoc.">
-			<img class="scans" src="!g/kokegane-no-uta/img2.jpg" alt="album jewel case back cover">
-			<img class="scans" src="!g/kokegane-no-uta/img3.jpg" alt="album CD. is its a bright neon green with light blue accents">
-			<img class="scans" src="!g/kokegane-no-uta/img4.jpg" alt="booklet cover. it is the same picture from the album cover but extended horizontally.">
-			<img class="scans" src="!g/kokegane-no-uta/img5.jpg" alt="booklet scans with lyrics">
-			<img class="scans" src="!g/kokegane-no-uta/img6.jpg" alt="booklet scans with lyrics">
-			<img class="scans" src="!g/kokegane-no-uta/img7.jpg" alt="booklet scans with lyrics">
-		</div>
+		<div id="album-box">
+			<div id="kokegane" class="pop-up box">
+				<h2>コケガネのうた / kokegane no uta</h2>
+				<p>scans provided by <a href="https://www.instagram.com/visual2remix/" target="_blank">visual2remix</a>! ❣️</p>
+				<p>HD downloads: <a href="https://archive.org/details/kokegane-no-uta-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/uouj37a5ic70f7nxmx1u9/h?rlkey=emlygvld7tzzvkrqwwcqyamxm&dl=0" target="_blank">dropbox</a></p>
+				<img class="scans" src="!g/kokegane-no-uta/img1.jpg" alt="album jewel case front. it has a watercolor like art cover from artist momoc.">
+				<img class="scans" src="!g/kokegane-no-uta/img2.jpg" alt="album jewel case back cover">
+				<img class="scans" src="!g/kokegane-no-uta/img3.jpg" alt="album CD. is its a bright neon green with light blue accents">
+				<img class="scans" src="!g/kokegane-no-uta/img4.jpg" alt="booklet cover. it is the same picture from the album cover but extended horizontally.">
+				<img class="scans" src="!g/kokegane-no-uta/img5.jpg" alt="booklet scans with lyrics">
+				<img class="scans" src="!g/kokegane-no-uta/img6.jpg" alt="booklet scans with lyrics">
+				<img class="scans" src="!g/kokegane-no-uta/img7.jpg" alt="booklet scans with lyrics">
+			</div>
 
-		<div id="yume" class="pop-up box">
-			<button onclick="toggleClose('yume')" class="x">x</button>
-			<h2>夢のまにまに / yume no manimani</h2>
-			<p>scanned by me! this is the 2019 reissue.</p>
-			<p>HD downloads: <a href="" target="_blank">archive.org</a> / <a href="" target="_blank">dropbox</a></p>
-			<img class="scans" src="!g/yume-no-manimani/cover.jpg" alt="jewel case front cover">
-			<img class="scans" src="!g/yume-no-manimani/cd.jpg" alt="CD. it is pink with white accents">
-			<img class="scans" src="!g/yume-no-manimani/p1.jpg" alt="full scan of the booklet cover.">
-			<img class="scans" src="!g/yume-no-manimani/p2.jpg" alt="booklet with lyrics">
-			<img class="scans" src="!g/yume-no-manimani/p3.jpg" alt="illustration by meisa. drawing of a character with long hair about to cut it with scissors. it has muted tones.">
-			<img class="scans" src="!g/yume-no-manimani/p4.jpg" alt="illustration by meisa. the character seems to be inside a web page with ads.">
-			<img class="scans" src="!g/yume-no-manimani/p5.jpg" alt="illustration by meisa. location looks like the inside of a theater, the character is seated and there are other creatures surrounding them. they look circus themed">
-			<img class="scans" src="!g/yume-no-manimani/p6.jpg" alt="illustration by meisa. the character is looking at us.">
-			<img class="scans" src="!g/yume-no-manimani/p7.jpg" alt="booklet with song titles">
-			<img class="scans" src="!g/yume-no-manimani/p8.jpg" alt="illustration by meisa. the character is on the floor and there are a bunch of paper strips with numbs falling from above.">
-			<img src="!g/yume-no-manimani/p9.jpg" alt="illustration by meisa. a character creepily looking at us. paper flying from everywhere. there are paper strips and colored pencils in the foreground as well." class="scans">
-			<img src="!g/yume-no-manimani/p10.jpg" alt="illustration by meisa. a character falling alongside various food and things like cake, fruits, a spoon, and a suitcase." class="scans">
-			<img src="!g/yume-no-manimani/p11.jpg" alt="illustration by meisa. character with a hoodie with green bright stripes and a fork on hand. on a table with plates set out and a acorn-like lantern illuminating the picture." class="scans">
-			<img src="!g/yume-no-manimani/p12.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/yume-no-manimani/p13.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/yume-no-manimani/p14.jpg" alt="booklet page with album credit and a quote" class="scans">
-			<img class="scans" src="!g/yume-no-manimani/case-paper.jpg" alt="obi card of the jewel case.">
-		</div>
+			<div id="yume" class="pop-up box">
 
-		<div id="ikiru" class="pop-up box">
-			<button onclick="toggleClose('ikiru')" class="x">x</button>
-			<h2>生きる / ikiru</h2>
-			<p>scanned by me!</p>
-			<p>HD downloads: <a href="https://archive.org/details/ikiru-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/dte051ltxm033zmra22bg/h/ikiru%20(alive)?dl=0&subfolder_nav_tracking=1" target="_blank">dropbox</a></p>
-			<img class="scans" src="!g/ikiru/jewel-case-frontcover.jpg">
-			<img class="scans" src="!g/ikiru/cd.jpg">
-			<img class="scans" src="!g/ikiru/jewel-case-backcover.jpg">
-			<img class="scans" src="!g/ikiru/p1.jpg">
-			<img class="scans" src="!g/ikiru/p2.jpg">
-			<img class="scans" src="!g/ikiru/p3.jpg">
-			<img class="scans" src="!g/ikiru/p4.jpg">
-			<img class="scans" src="!g/ikiru/p5.jpg">
-			<img class="scans" src="!g/ikiru/p6.jpg">
-		</div>
+				<h2>夢のまにまに / yume no manimani</h2>
+				<p>scanned by me! this is the 2019 reissue.</p>
+				<p>HD downloads: <a href="" target="_blank">archive.org</a> / <a href="" target="_blank">dropbox</a></p>
+				<img class="scans" src="!g/yume-no-manimani/cover.jpg" alt="jewel case front cover">
+				<img class="scans" src="!g/yume-no-manimani/cd.jpg" alt="CD. it is pink with white accents">
+				<img class="scans" src="!g/yume-no-manimani/p1.jpg" alt="full scan of the booklet cover.">
+				<img class="scans" src="!g/yume-no-manimani/p2.jpg" alt="booklet with lyrics">
+				<img class="scans" src="!g/yume-no-manimani/p3.jpg" alt="illustration by meisa. drawing of a character with long hair about to cut it with scissors. it has muted tones.">
+				<img class="scans" src="!g/yume-no-manimani/p4.jpg" alt="illustration by meisa. the character seems to be inside a web page with ads.">
+				<img class="scans" src="!g/yume-no-manimani/p5.jpg" alt="illustration by meisa. location looks like the inside of a theater, the character is seated and there are other creatures surrounding them. they look circus themed">
+				<img class="scans" src="!g/yume-no-manimani/p6.jpg" alt="illustration by meisa. the character is looking at us.">
+				<img class="scans" src="!g/yume-no-manimani/p7.jpg" alt="booklet with song titles">
+				<img class="scans" src="!g/yume-no-manimani/p8.jpg" alt="illustration by meisa. the character is on the floor and there are a bunch of paper strips with numbs falling from above.">
+				<img src="!g/yume-no-manimani/p9.jpg" alt="illustration by meisa. a character creepily looking at us. paper flying from everywhere. there are paper strips and colored pencils in the foreground as well." class="scans">
+				<img src="!g/yume-no-manimani/p10.jpg" alt="illustration by meisa. a character falling alongside various food and things like cake, fruits, a spoon, and a suitcase." class="scans">
+				<img src="!g/yume-no-manimani/p11.jpg" alt="illustration by meisa. character with a hoodie with green bright stripes and a fork on hand. on a table with plates set out and a acorn-like lantern illuminating the picture." class="scans">
+				<img src="!g/yume-no-manimani/p12.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/yume-no-manimani/p13.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/yume-no-manimani/p14.jpg" alt="booklet page with album credit and a quote" class="scans">
+				<img class="scans" src="!g/yume-no-manimani/case-paper.jpg" alt="obi card of the jewel case.">
+			</div>
 
-		<div id="award-strobe" class="pop-up box">
-			<button onclick="toggle('award-strobe')" class="x">x</button>
-			<h2>award strobe hello</h2>
-			<p>scans provided by <a href="https://www.instagram.com/visual2remix/" target="_blank">visual2remix</a>! ❣️</p>
-			<p>HD downloads: <a href="https://archive.org/details/award-strobe-hello-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/2gmc8mh30fo3ydo4v3s1u/h?rlkey=i2l08lhu1m05gn5qvjfuq13o7&dl=0" target="_blank">dropbox</a></p>
-			<img class="scans" src="!g/award-strobe-hello/0.jpg">
-			<img class="scans" src="!g/award-strobe-hello/1.jpg">
-			<img class="scans" src="!g/award-strobe-hello/2.jpg">
-			<img class="scans" src="!g/award-strobe-hello/3.jpg">
-			<img class="scans" src="!g/award-strobe-hello/4.jpg">
-		</div>
+			<div id="ikiru" class="pop-up box">
 
-		<div id="setsuna-pop-l" class="pop-up box">
-			<button onclick="toggleClose('setsuna-pop-l')" class="x">x</button>
-			<h2>アルターワー･セツナポップ / alterour setsuna pop (limited edition)</h2>
-			<p>this is the limited edition album that included a DVD with 3 music videos / PVs</p>
-			<p>these are <u>not scanned by me!</u> i found these scans in the FLAC folder of <i>alterour setsuna pop</i> in <a href="https://mikudb.moe/album/alter-world-setsuna-pop/" target="_blank">mikudb</a></p>
-			<p>HD downloads: <a href="https://archive.org/details/setsuna-pop-limited-ed" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/amos2zzn4av363edym2sg/AIbLQXPhB7XI2cN-Ds3o_3M?rlkey=abwbwxyjlhi3jg4a5mtt2ligw&dl=0" target="_blank">dropbox</a></p>
-			<img src="!g/setsuna-limited/0001.jpg" alt="photography of a sea, there are two boats. shoes a blue cloudy sky" class="scans">
-			<img src="!g/setsuna-limited/0002.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0003.jpg" alt="pixelated illustration by meisa. has a hot pink background. looks like a charecter sitting on the floor" class="scans">
-			<img src="!g/setsuna-limited/0004.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0005.jpg" alt="picture of aluminum walls and barrels" class="scans">
-			<img src="!g/setsuna-limited/0006.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0007.jpg" alt="a bird with its wings spread." class="scans">
-			<img src="!g/setsuna-limited/0008.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0009.jpg" alt="illustration by meisa of a character. has a white shirt, a dark blue jacket, and a red ribbon. there are flowers and plants behind them. it has a mustard color background" class="scans">
-			<img src="!g/setsuna-limited/0010.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0011.jpg" alt="picture of a sunset or sunrise in a city" class="scans">
-			<img src="!g/setsuna-limited/0012.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0013.jpg" alt="illustration by meisa. seems to be in like a drafts / crayon style. the drawing looks like a mermaid tail. it is green and it has a pink ribbon at the end." class="scans">
-			<img src="!g/setsuna-limited/0014.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0015.jpg" alt="photograph of a yellow flower. it looks like orchids" class="scans">
-			<img src="!g/setsuna-limited/0016.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0017.jpg" alt="a wall of plants with water running down on them." class="scans">
-			<img src="!g/setsuna-limited/0018.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0019.jpg" alt="a photograph of out of focus lights, taken inside a car." class="scans">
-			<img src="!g/setsuna-limited/0020.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0021.jpg" alt="illustration by meisa of an extended handholding a lightbulb with a string as it breaks on their palms. there are other lightbulbs in the drawing. the background is a dark blue and it gives off a sketchy feeling. " class="scans">
-			<img src="!g/setsuna-limited/0022.jpg" alt="booklet page with lyrics" class="scans">
-			<img src="!g/setsuna-limited/0023.jpg" alt="the silhouette of siinamota on a dune or desert with a light blue sky as the background. you can notice his footprints in the sand." class="scans">
-			<img src="!g/setsuna-limited/0024.jpg" alt="booklet credit information" class="scans">
-			<img src="!g/setsuna-limited/0025.jpg" alt="cardboard front cover" class="scans">
-			<img src="!g/setsuna-limited/0026.jpg" alt="cardboard back cover" class="scans">
-			<img src="!g/setsuna-limited/0027.jpg" alt="CD disc. it is blue with pink accents." class="scans">
-			<img src="!g/setsuna-limited/0028.jpg" alt="DVD disc. it is pink with blue accents." class="scans">
-		</div>
+				<h2>生きる / ikiru</h2>
+				<p>scanned by me!</p>
+				<p>HD downloads: <a href="https://archive.org/details/ikiru-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/dte051ltxm033zmra22bg/h/ikiru%20(alive)?dl=0&subfolder_nav_tracking=1" target="_blank">dropbox</a></p>
+				<img class="scans" src="!g/ikiru/jewel-case-frontcover.jpg">
+				<img class="scans" src="!g/ikiru/cd.jpg">
+				<img class="scans" src="!g/ikiru/jewel-case-backcover.jpg">
+				<img class="scans" src="!g/ikiru/p1.jpg">
+				<img class="scans" src="!g/ikiru/p2.jpg">
+				<img class="scans" src="!g/ikiru/p3.jpg">
+				<img class="scans" src="!g/ikiru/p4.jpg">
+				<img class="scans" src="!g/ikiru/p5.jpg">
+				<img class="scans" src="!g/ikiru/p6.jpg">
+			</div>
 
-		<div id="sepia-remodel" class="pop-up box">
-			<button onclick="toggleClose('sepia-remodel')" class="x">x</button>
-			<h2>sepia record (remodel)</h2>
-			<figure> <img src="!g/sepia-record-remodel/sepia-record.jpg" alt="a person lying in a bed of flowers" class="scans">
-				<figcaption>illustration shown in nico video crossplay. illustrated by meisa.</figcaption>
-			</figure>
-		</div>
+			<div id="award-strobe" class="pop-up box">
 
-		<div id="sepia-record" class="pop-up box">
-			<button onclick="toggleClose('sepia-record')" class="x">x</button>
-			<h2>sepia record</h2>
-			<p>artwork in this album is made by <a href="https://www.pixiv.net/en/users/5105537" target="_blank">meisa</a>.</p>
-			<figure>
-				<img src="!g/sepia-record/cover.jpg" alt="regular cover of sepia record. it shows a portrait of the character.has green hair with braids and red ribbons at the end. wearing a black suit with a black tie. there are flowers and plants decorating their head" class="scans">
-				<figcaption>regular cover of sepia record</figcaption>
-			</figure>
-			<figure><img class="scans" src="!g/sepia-record/alt-cover.jpg" alt="alternative cover for sepia record">
-				<figcaption>an alternative album cover for <i>sepia record</i>.</figcaption>
-			</figure>
-			<figure>
-				<img src="!g/sepia-record/art-pv-1.jpg" class="scans" alt="skyfish  hatsune miku on a blue background. illustration by meisa.">
-				<figcaption>full artwork by <a href="http://hathune39.web.fc2.com/" target="_blank" class="outlink">meisa</a> that was featured in the <a href="https://youtu.be/b5EJVRw8vKE?si=Xd03ftSduxYFK5G8" target="_blank">sky fish PV</a></figcaption>
-			</figure>
-		</div>
+				<h2>award strobe hello</h2>
+				<p>scans provided by <a href="https://www.instagram.com/visual2remix/" target="_blank">visual2remix</a>! ❣️</p>
+				<p>HD downloads: <a href="https://archive.org/details/award-strobe-hello-scans" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/2gmc8mh30fo3ydo4v3s1u/h?rlkey=i2l08lhu1m05gn5qvjfuq13o7&dl=0" target="_blank">dropbox</a></p>
+				<img class="scans" src="!g/award-strobe-hello/0.jpg">
+				<img class="scans" src="!g/award-strobe-hello/1.jpg">
+				<img class="scans" src="!g/award-strobe-hello/2.jpg">
+				<img class="scans" src="!g/award-strobe-hello/3.jpg">
+				<img class="scans" src="!g/award-strobe-hello/4.jpg">
+			</div>
 
-		<div id="repeat-overdose" class="pop-up box">
-			<button onclick="toggleClose('repeat-overdose')" class="x">x</button>
-			<h2>1, repeat 2, sleeping 3, overdose</h2>
-			<p>pictures of the physical album found in <a href="https://rateyourmusic.com/admin/corq/?req_id=9832737" target="_blank">RYM</a></p>
-			<p>artwork made by siinamota</p>
-			<img class="scans" src="!g/repear-overdose/2.jpg">
-			<img class="scans" src="!g/repear-overdose/1.jpg">
-		</div>
+			<div id="setsuna-pop-l" class="pop-up box">
+				<h2>アルターワー･セツナポップ / alterour setsuna pop (limited edition)</h2>
+				<p>this is the limited edition album that included a DVD with 3 music videos / PVs</p>
+				<p>these are <u>not scanned by me!</u> i found these scans in the FLAC folder of <i>alterour setsuna pop</i> in <a href="https://mikudb.moe/album/alter-world-setsuna-pop/" target="_blank">mikudb</a></p>
+				<p>HD downloads: <a href="https://archive.org/details/setsuna-pop-limited-ed" target="_blank">archive.org</a> / <a href="https://www.dropbox.com/scl/fo/amos2zzn4av363edym2sg/AIbLQXPhB7XI2cN-Ds3o_3M?rlkey=abwbwxyjlhi3jg4a5mtt2ligw&dl=0" target="_blank">dropbox</a></p>
+				<img src="!g/setsuna-limited/0001.jpg" alt="photography of a sea, there are two boats. shoes a blue cloudy sky" class="scans">
+				<img src="!g/setsuna-limited/0002.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0003.jpg" alt="pixelated illustration by meisa. has a hot pink background. looks like a charecter sitting on the floor" class="scans">
+				<img src="!g/setsuna-limited/0004.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0005.jpg" alt="picture of aluminum walls and barrels" class="scans">
+				<img src="!g/setsuna-limited/0006.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0007.jpg" alt="a bird with its wings spread." class="scans">
+				<img src="!g/setsuna-limited/0008.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0009.jpg" alt="illustration by meisa of a character. has a white shirt, a dark blue jacket, and a red ribbon. there are flowers and plants behind them. it has a mustard color background" class="scans">
+				<img src="!g/setsuna-limited/0010.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0011.jpg" alt="picture of a sunset or sunrise in a city" class="scans">
+				<img src="!g/setsuna-limited/0012.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0013.jpg" alt="illustration by meisa. seems to be in like a drafts / crayon style. the drawing looks like a mermaid tail. it is green and it has a pink ribbon at the end." class="scans">
+				<img src="!g/setsuna-limited/0014.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0015.jpg" alt="photograph of a yellow flower. it looks like orchids" class="scans">
+				<img src="!g/setsuna-limited/0016.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0017.jpg" alt="a wall of plants with water running down on them." class="scans">
+				<img src="!g/setsuna-limited/0018.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0019.jpg" alt="a photograph of out of focus lights, taken inside a car." class="scans">
+				<img src="!g/setsuna-limited/0020.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0021.jpg" alt="illustration by meisa of an extended handholding a lightbulb with a string as it breaks on their palms. there are other lightbulbs in the drawing. the background is a dark blue and it gives off a sketchy feeling. " class="scans">
+				<img src="!g/setsuna-limited/0022.jpg" alt="booklet page with lyrics" class="scans">
+				<img src="!g/setsuna-limited/0023.jpg" alt="the silhouette of siinamota on a dune or desert with a light blue sky as the background. you can notice his footprints in the sand." class="scans">
+				<img src="!g/setsuna-limited/0024.jpg" alt="booklet credit information" class="scans">
+				<img src="!g/setsuna-limited/0025.jpg" alt="cardboard front cover" class="scans">
+				<img src="!g/setsuna-limited/0026.jpg" alt="cardboard back cover" class="scans">
+				<img src="!g/setsuna-limited/0027.jpg" alt="CD disc. it is blue with pink accents." class="scans">
+				<img src="!g/setsuna-limited/0028.jpg" alt="DVD disc. it is pink with blue accents." class="scans">
+			</div>
 
-		<div id="powapoworks" class="pop-up box">
-			<button onclick="toggleClose('powapoworks')" class="x">x</button>
-			<h2>powapoworks</h2>
-			<p>pictures from <a href="https://web.archive.org/web/20240906025645/https://aucview.com/yahoo/x1068288332/">here</a></p>
-			<figure><img class="scans" src="!g/powapoworks/cover.jpg" alt="front of the jewel case">
-				<figcaption>front of jewel case</figcaption>
-			</figure>
-			<figure><img class="scans" src="!g/powapoworks/back.jpg" alt="the back of the jewel case">
-				<figcaption>back of jewel case</figcaption>
-			</figure>
-			<figure>
-				<img style="max-width:150px" class="scans" src="!g/powapoworks/spine.jpg" alt="spine of the jewel case">
-				<figcaption>the spine</figcaption>
-			</figure>
-			<hr>
-			<p>the following picture is of a signed copy by siinamota that i found on a site but i forgot to archive it.... and it is currently unavailable. here is the <a href="https://com.residentialruin.online/product/24139748843.html" target="_blank">original link</a>.
-				<img src="!g/powapoworks/signed.jpg" class="scans" alt="collage of pictures featuring siinamota's signature">
-		</div>
+			<div id="sepia-remodel" class="pop-up box">
 
-		<div id="hepatica" class="pop-up box">
-			<button onclick="toggleClose('hepatica')" class="x">x</button>
-			<h2>hepatica</h2>
-			<p>once again forgot to archive the link... <a href="https://hwrot.farbrand.shop/index.php?main_page=product_info&products_id=14375" target="_blank">original link</a>. </p>
-			<img src="!g/hepatica/cover.png" alt="jewel case cover of hepatica" class="scans">
-		</div>
+				<h2>sepia record (remodel)</h2>
+				<figure> <img src="!g/sepia-record-remodel/sepia-record.jpg" alt="a person lying in a bed of flowers" class="scans">
+					<figcaption>illustration shown in nico video crossplay. illustrated by meisa.</figcaption>
+				</figure>
+			</div>
 
-		<div id="poncutsu" class="pop-up box">
-			<button onclick="toggleClose('poncutsu')" class="x">x</button>
-			<h2>poncutsu odyssey</h2>
-			<p>following pictures are from mercari: <a href="https://jp.mercari.com/en/item/m20733530338" target="_blank">original</a> / <a href="https://web.archive.org/web/20240906032825/https://jp.mercari.com/en/item/m20733530338" target="_blank">archived</a></p>
-			<img src="!g/poncutsu/cover.jpg" alt="the front of the jewel case" class="scans">
-			<img src="!g/poncutsu/back.jpg" alt="the back of the jewel case" class="scans">
-			<img src="!g/poncutsu/cd.jpg" alt="jewel case opened exposing the CD" class="scans">
+			<div id="sepia-record" class="pop-up box">
+
+				<h2>sepia record</h2>
+				<p>artwork in this album is made by <a href="https://www.pixiv.net/en/users/5105537" target="_blank">meisa</a>.</p>
+				<figure>
+					<img src="!g/sepia-record/cover.jpg" alt="regular cover of sepia record. it shows a portrait of the character.has green hair with braids and red ribbons at the end. wearing a black suit with a black tie. there are flowers and plants decorating their head" class="scans">
+					<figcaption>regular cover of sepia record</figcaption>
+				</figure>
+				<figure><img class="scans" src="!g/sepia-record/alt-cover.jpg" alt="alternative cover for sepia record">
+					<figcaption>an alternative album cover for <i>sepia record</i>.</figcaption>
+				</figure>
+				<figure>
+					<img src="!g/sepia-record/art-pv-1.jpg" class="scans" alt="skyfish  hatsune miku on a blue background. illustration by meisa.">
+					<figcaption>full artwork by <a href="http://hathune39.web.fc2.com/" target="_blank" class="outlink">meisa</a> that was featured in the <a href="https://youtu.be/b5EJVRw8vKE?si=Xd03ftSduxYFK5G8" target="_blank">sky fish PV</a></figcaption>
+				</figure>
+			</div>
+
+			<div id="repeat-overdose" class="pop-up box">
+
+				<h2>1, repeat 2, sleeping 3, overdose</h2>
+				<p>pictures of the physical album found in <a href="https://rateyourmusic.com/admin/corq/?req_id=9832737" target="_blank">RYM</a></p>
+				<p>artwork made by siinamota</p>
+				<img class="scans" src="!g/repear-overdose/2.jpg">
+				<img class="scans" src="!g/repear-overdose/1.jpg">
+			</div>
+
+			<div id="powapoworks" class="pop-up box">
+
+				<h2>powapoworks</h2>
+				<p>pictures from <a href="https://web.archive.org/web/20240906025645/https://aucview.com/yahoo/x1068288332/">here</a></p>
+				<figure><img class="scans" src="!g/powapoworks/cover.jpg" alt="front of the jewel case">
+					<figcaption>front of jewel case</figcaption>
+				</figure>
+				<figure><img class="scans" src="!g/powapoworks/back.jpg" alt="the back of the jewel case">
+					<figcaption>back of jewel case</figcaption>
+				</figure>
+				<figure>
+					<img style="max-width:150px" class="scans" src="!g/powapoworks/spine.jpg" alt="spine of the jewel case">
+					<figcaption>the spine</figcaption>
+				</figure>
+				<hr>
+				<p>the following picture is of a signed copy by siinamota that i found on a site but i forgot to archive it.... and it is currently unavailable. here is the <a href="https://com.residentialruin.online/product/24139748843.html" target="_blank">original link</a>.
+					<img src="!g/powapoworks/signed.jpg" class="scans" alt="collage of pictures featuring siinamota's signature">
+			</div>
+
+			<div id="hepatica" class="pop-up box">
+
+				<p>once again forgot to archive the link... <a href="https://hwrot.farbrand.shop/index.php?main_page=product_info&products_id=14375" target="_blank">original link</a>. </p>
+				<img src="!g/hepatica/cover.png" alt="jewel case cover of hepatica" class="scans">
+			</div>
+
+			<div id="poncutsu" class="pop-up box">
+
+				<p>following pictures are from mercari: <a href="https://jp.mercari.com/en/item/m20733530338" target="_blank">original</a> / <a href="https://web.archive.org/web/20240906032825/https://jp.mercari.com/en/item/m20733530338" target="_blank">archived</a></p>
+				<img src="!g/poncutsu/cover.jpg" alt="the front of the jewel case" class="scans">
+				<img src="!g/poncutsu/back.jpg" alt="the back of the jewel case" class="scans">
+				<img src="!g/poncutsu/cd.jpg" alt="jewel case opened exposing the CD" class="scans">
+			</div>
 		</div>
 
 		<footer id="footer" class="box">
-			<p>last updated on: 05.sep.24</p>
+			<p>last updated on: 02.nov.24</p>
 			<p><b>credit:</b> body bg is by <a title="pixiv link" href="https://www.pixiv.net/en/artworks/18997270" target="_blank">momoc</a> for the <i>kokegane no uta</i> album cover.</p>
 		</footer>
 	</main>
