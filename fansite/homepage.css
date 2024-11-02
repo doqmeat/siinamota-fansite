@@ -18,6 +18,17 @@ body {
   overflow: auto;
 }
 
+#navi a {
+  text-decoration: none;
+}
+
+#navi h3 {
+  color: var(--red);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
 #counters p {
   text-align: center;
 }

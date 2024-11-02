@@ -7,6 +7,13 @@
 		<description>des' siinamota fansite</description>
 
 		<item>
+			<title>02.nov.24 - scans hyperlinks</title>
+			<link>https://siinamota.doqmeat.com/scans</link>
+			<description>made a minor change in the code so now you can hyper link to each album. also added bgs to pages missing them!</description>
+			<pubDate>Sat, 02 Nov 2024 17:06:00 -0400</pubDate>
+		</item>
+
+		<item>
 			<title>02.nov.24 - info + news page</title>
 			<link>https://siinamota.doqmeat.com/</link>
 			<description>moved index paragragh about fansite to newly created &#x3C;a href=&#x22;/info&#x22;&#x3E;info&#x3C;/a&#x3E; page + created a &#x3C;a href=&#x22;/news&#x22;&#x3E;news&#x3C;/a&#x3E; page + shamelessly copy pasted bio written for fanlisting to the homepage.</description>

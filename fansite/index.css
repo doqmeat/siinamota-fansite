@@ -5,7 +5,7 @@
 :root {
   --red: #8a3842;
   --pink: #b76e68;
-  --yellow: #d6a676;
+  --yellow: #c69565;
   --green: #949561;
   --purple: #745562;
   --fonts: natsuzemi, ms pgothic, arial;
@@ -160,11 +160,11 @@ figcaption {
   padding: 10px;
 }
 
-.icon {
+header img {
   transition-duration: 1s;
 }
 
-.icon:hover {
+header img:hover {
   rotate: 350deg;
 }
 
