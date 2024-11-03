@@ -7,6 +7,13 @@
 		<description>des' siinamota fansite</description>
 
 		<item>
+			<title>02.nov.24 - fansite vlog</title>
+			<link>https://www.youtube.com/watch?v=BCFHsCVqDV0</link>
+			<description>recorded a vlog with my phone (snipping tool was not behaving) about the progress with the fansite so far &#x3C;iframe width=&#x22;560&#x22; height=&#x22;315&#x22; src=&#x22;https://www.youtube.com/embed/BCFHsCVqDV0?si=7I-fgjuN3TTD9Dz-&#x22; title=&#x22;YouTube video player&#x22; frameborder=&#x22;0&#x22; allow=&#x22;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#x22; referrerpolicy=&#x22;strict-origin-when-cross-origin&#x22; allowfullscreen&#x3E;&#x3C;/iframe&#x3E;</description>
+			<pubDate>Sat, 02 Nov 2024 22:57:00 -0400</pubDate>
+		</item>
+
+		<item>
 			<title>02.nov.24 - scans hyperlinks</title>
 			<link>https://siinamota.doqmeat.com/scans</link>
 			<description>made a minor change in the code so now you can hyper link to each album. also added bgs to pages missing them!</description>
