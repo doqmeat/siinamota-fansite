@@ -1,0 +1,91 @@
+button.LP {
+  max-width: 180px;
+}
+
+.LP img {
+  display: block;
+  width: 100%;
+}
+
+.LP a {
+  text-align: center;
+}
+
+#album-box {
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  height: 660px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.pop-up {
+  margin: 0 0 10px 0;
+  position: relative;
+  display: block;
+  padding: 20px;
+  height: 650px;
+  overflow: auto;
+  width: 500px;
+}
+
+.active {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.active:hover {
+  background: transparent;
+}
+
+li button {
+  background: white;
+  padding: 1px 3px;
+  border-radius: 10px;
+  border: 1px solid var(--yellow);
+  font-family: natsuzemi;
+  cursor: help;
+  color: var(--yellow);
+  font-size: 15px;
+}
+
+li button:hover {
+  color: var(--purple);
+}
+
+li button:focus {
+  background: var(--green);
+  color: white;
+}
+
+.x {
+  float: right;
+  background: transparent;
+  border: none;
+  font-family: natsuzemi, var(--fonts);
+  font-size: 28px;
+  cursor: help;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+  .hide {
+    display: block;
+  }
+
+  .pop-up {
+    width: 100%;
+  }
+
+  #album-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 0px;
+  }
+}
