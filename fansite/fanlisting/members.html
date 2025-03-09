@@ -5,190 +5,78 @@
 started working on this since: 23.may.24 -->
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="icon" type="image/x-icon" href="/fanlisting/favicon.gif">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>siinamota fanlisting - fans</title>
-	<link href="/!f/fonts/stylesheet.css" rel="stylesheet">
-	<link href="fanlisting.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script src="/!f/tooltip-jquary.js"></script>
-	<script src="/!f/tooltip.js"></script>
-	<style>
-		ol {
-			padding-left: 20px;
-		}
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/fanlisting/favicon.gif">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>siinamota fanlisting - fans</title>
+  <link href="/!f/fonts/stylesheet.css" rel="stylesheet">
+  <link href="fanlisting.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="/!f/tooltip-jquary.js"></script>
+  <script src="/!f/tooltip.js"></script>
+  <style>
+    ol {
+      padding-left: 20px;
+    }
 
-		li {
-			padding: 5px 2px;
-			list-style: decimal;
-		}
+    li {
+      padding: 5px 2px;
+      list-style: decimal;
+    }
 
-		li p {
-			margin: 0px;
-			padding-left: 20px;
-			color: var(--brown);
-		}
+    li p {
+      margin: 0px;
+      padding-left: 20px;
+      color: var(--brown);
+    }
 
-		li span {
-			text-shadow: 2px 1px 1px var(--peach);
-			font-style: oblique;
-		}
-	</style>
+    li span {
+      text-shadow: 2px 1px 1px var(--peach);
+      font-style: oblique;
+    }
+  </style>
 </head>
 
 <body>
-	<nav>
-		<a href="#">top</a>
-		<a href="index.html">home</a>
-		<a href="buttons.html">buttons</a>
-		<a href="join.html">join</a>
-		<a href="update.html">update</a>
-		<a class="current" href="members.html">members</a>
-		<a href="about.html">about</a>
+  <nav>
+    <a href="#">top</a>
+    <a href="index.html">home</a>
+    <a href="buttons.html">buttons</a>
+    <a href="join.html">join</a>
+    <a href="update.html">update</a>
+    <a class="current" href="members.html">members</a>
+    <a href="about.html">about</a>
 
-	</nav>
+  </nav>
 
-	<header>
+  <header>
 
-		<h1>fan list</h1>
-		<p>a list of all the members! in order of newest to oldest.</p>
-		<p><b>admin note:</b> i add these manually so it might take a bit for you to appear here!</p>
-	</header>
+    <h1>fan list</h1>
+    <p>a list of all the members! in order of newest to oldest.</p>
+    <p><b>admin note:</b> i add these manually so it might take a bit for you to appear here!</p>
+  </header>
 
-	<main>
+  <main>
 
-		<div id="fans" class="box">
-			<ol>
-				<!--
-		TEMPLATE ~~~~~~
-			
-			<li><span>name</span> - <s>e-mail</s> - <a title="domain.com" href="https://url" target="_blank">website</a> - Country
-				<p><b>favorite song:</b> ?</p>
-				<p><b>favorite album:</b> ?</p>
-			</li>
+    <div id="fans" class="box">
+      <!--
+ARRAY OBJECT TEMPLATE ~~~~~~
+  {
+      "name": "",
+      "favorite song": "",
+      "favorite album": "",
+      "country":"",
+      "email": "",
+      "website": ""
+    },
 -->
-				<li><span>Sofa</span> - <a href="mailto:	adictaalkashxdxd @ gmail(.)com">e-mail</a> - <s>website</s> - Colombia
-					<p><b>favorite song:</b> please tell me Mr.wonder</p>
-					<p><b>favorite album:</b> award strobe hello</p>
-				</li>
+      <ol>
 
-				<li><span>Raul</span> - <s>e-mail</s> - <s>website</s> - Brazil
-					<p><b>favorite song:</b> Healthy End</p>
-					<p><b>favorite album:</b> 生きる / ikiru</p>
-				</li>
+      </ol>
+    </div>
 
-				<li><span>Shellfish</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> sayonarawoiwazuni</p>
-					<p><b>favorite album:</b> 故に / therefor.</p>
-				</li>
-
-				<li><span>Emmy</span> - <s>e-mail</s> - <a title="gattonero.moe" href="https://gattonero.moe/" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> Q</p>
-					<p><b>favorite album:</b> アルターワー･セツナポップ / alterour setsuna pop</p>
-				</li>
-
-				<li><span>Len-P</span> - <s>e-mail</s> - <s>website</s> - Italy
-					<p><b>favorite song:</b> all!</p>
-					<p><b>favorite album:</b> alpa</p>
-				</li>
-
-				<li><span>Juno</span> - <s>e-mail</s> - <a title="juxtajuno" href="https://juxtajuno.neocities.org" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> yume no manimani</p>
-					<p><b>favorite album:</b> 夢のまにまに / yume no manimani</p>
-				</li>
-
-				<li><span>Rainer</span> - <s>e-mail</s> - <a title="silt" href="https://silt.neocities.org" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> help yourself to seconds</p>
-					<p><b>favorite album:</b> 生きる / ikiru</p>
-				</li>
-
-				<li><span>Chara</span> - <s>e-mail</s> - <a title="hunipyon" href="https://hunipyon.neocities.org/" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> yume no manimani</p>
-					<p><b>favorite album:</b> 夢のまにまに / yume no manimani</p>
-				</li>
-
-				<li><span>Kito</span> - <a title="splutterguttss.info (at) gmail . com" href="mailto:splutterguttss.info (at) gmail . com">e-mail</a> - <a title="hazure03" href="https://hazure03.neocities.org/" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> Lost &amp; Found</p>
-					<p><b>favorite album:</b> 夢のまにまに / yume no manimani</p>
-				</li>
-
-				<li><span>Amelie</span> - <a title="catherinemioda (at) gmail . com" href="mailto:catherinemioda (at) gmail . com">e-mail</a> - <s>website</s> - Brazil
-					<p><b>favorite song:</b> 怪盗・窪園チヨコは絶対ミスらない</p>
-					<p><b>favorite album:</b> powapoworks</p>
-				</li>
-
-				<li><span>Bobiebobs</span> - <s>e-mail</s> - <a title="bobiebobs" href="https://bobiebobs.neocities.org" target="_blank">website</a> - United Kingdom
-					<p><b>favorite song:</b> young girl a (strobe light close second)</p>
-					<p><b>favorite album:</b> 生きる / ikiru</p>
-				</li>
-
-				<li><span>Moga</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> strobe last</p>
-					<p><b>favorite album:</b> award strobe hello</p>
-				</li>
-
-				<li><span>Meek</span> - <s>e-mail</s> - <a title="mikufan3939" href="https://mikufan3939.neocities.org/" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> astronauts</p>
-					<p><b>favorite album:</b> award strobe hello</p>
-				</li>
-
-				<li><span>Ebi</span> - <a title="shrimp9379 (at) gmail . com" href="mailto:shrimp9379 (at) gmail . com">e-mail</a> - <s>website</s> - Australia
-					<p><b>favorite song:</b> vanilla flavor piece</p>
-					<p><b>favorite album:</b> セピアレコード / sepia record</p>
-				</li>
-
-				<li><span>Aster</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> sora no sakana / sky fish + usonaki tsukuriwarai</p>
-					<p><b>favorite album:</b> アルターワー･セツナポップ / alterour setsuna pop</p>
-				</li>
-
-				<li><span>Corndogboi</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> [can't choose!]</p>
-					<p><b>favorite album:</b> アルターワー･セツナポップ / alterour setsuna pop</p>
-				</li>
-
-				<li><span>Erraticpillars</span> - <s>e-mail</s> - <s>website</s> - Cambodia
-					<p><b>favorite song:</b> in my head</p>
-					<p><b>favorite album:</b> 1, repeat 2, sleeping 3, overdose</p>
-				</li>
-
-				<li><span>Tessa</span> - <a title="nakanainakanai123 (at) gmail.com" href="mailto:nakanainakanai123 (at) gmail . com">e-mail</a> - <s>website</s> - Poland
-					<p><b>favorite song:</b> アストロノーツ / astronauts (award strobe hello ver.)</p>
-					<p><b>favorite album:</b> 1, repeat 2, sleeping 3, overdose</p>
-				</li>
-
-				<li><span>Emma</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> ドラッグスコア / drug score</p>
-					<p><b>favorite album:</b> award strobe hello</p>
-				</li>
-
-				<li><span>Sabrin</span> - <s>e-mail</s> - <a title="sabrin.party" href="https://sabrin.party" target="_blank">website</a> - United States
-					<p><b>favorite song:</b> N/A</p>
-					<p><b>favorite album:</b> 1, repeat 2, sleeping 3, overdose</p>
-				</li>
-
-				<li><span>Esper</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> おやすみの中おやすみ / oyasumi no naka oyasumi</p>
-					<p><b>favorite album:</b> award strobe hello</p>
-				</li>
-
-				<li><span>Azriel</span> - <s>e-mail</s> - <s>website</s> - United States
-					<p><b>favorite song:</b> 夢のまにまに / yume no manimani</p>
-					<p><b>favorite album:</b> 夢のまにまに / yume no manimani</p>
-				</li>
-
-				<li><span>Des</span> - <a title="doqmeat (at) gmail . com" href="mailto:doqmeat (at) gmail.com">e-mail</a> - <a title="doqmeat.com" href="https://doqmeat.com" target="_blank">website</a> - Puerto Rico
-					<p><b>favorite song:</b> 999</p>
-					<p><b>favorite album:</b> セピアレコード / sepia secord</p>
-				</li>
-
-			</ol>
-
-		</div>
-
-	</main>
-
+  </main>
+  <script src="members.js"></script>
 </body>
 
 </html>
