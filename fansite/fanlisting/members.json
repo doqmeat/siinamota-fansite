@@ -2,14 +2,6 @@
 { "fanlistingMembers":
   [
     {
-      "name": "your name",
-      "favorite song": "your fav song",
-      "favorite album": "your fav album",
-      "country":"your country",
-      "email": "email if you want to show it on the members list, if not, leave blank",
-      "website": "website, no social media. you can leave it blank."
-    },
-    {
       "name": "Kori",
       "favorite song": "MOSAIC",
       "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
