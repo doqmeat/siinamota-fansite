@@ -62,6 +62,10 @@ body {
 	color: var(--d-blue);
 }
 
+summary {
+	cursor: help;
+}
+
 a {
 	text-decoration: underline;
 	transition-duration: 0.1s;
@@ -130,7 +134,7 @@ nav a {
 }
 
 nav a::before {
-	content: '～';
+	content: "～";
 }
 
 #s-m-t-tooltip {
@@ -145,7 +149,6 @@ nav a::before {
 }
 
 @media only screen and (max-width: 750px) {
-
 	header,
 	.box {
 		position: relative;
@@ -156,5 +159,4 @@ nav a::before {
 		bottom: 0px;
 		top: 0px;
 	}
-
 }

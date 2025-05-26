@@ -26,6 +26,10 @@ body {
 	margin: 0px;
 }
 
+summary {
+	cursor: help;
+}
+
 ::selection {
 	background: var(--purple);
 	color: var(--yellow);
@@ -106,7 +110,6 @@ nav {
 	border: 0px;
 	border-top: 2px solid var(--yellow);
 	background: var(--green);
-	color: white;
 	text-align: center;
 	z-index: 3;
 	width: 100%;
@@ -115,10 +118,20 @@ nav {
 	overflow: auto;
 	border-radius: 0px;
 }
+nav h2 {
+	text-align: left;
+}
+nav h3 {
+	display: inline;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+}
 
 nav a {
 	padding: 0 5px 0 0;
-	color: white;
 	border-radius: 5px;
 	padding-left: 10px;
 	text-decoration: none;
