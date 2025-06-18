@@ -18,7 +18,7 @@ fetch(`members.json?v=${Date.now()}`)
 			let website = members[i].website;
 
 			if (!email && !website) {
-				// if no email and website
+				// if no email and no website
 				memberList.innerHTML +=
 					"<li><span>" +
 					name +
