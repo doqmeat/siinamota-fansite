@@ -1,7 +1,3 @@
-button.LP {
-	max-width: 180px;
-}
-
 .entry {
 	img {
 		display: block;
@@ -38,6 +34,7 @@ button.LP {
 }
 
 button.entry {
+	max-width: 180px;
 	background: white;
 	padding: 0px;
 	border-radius: 10px;
