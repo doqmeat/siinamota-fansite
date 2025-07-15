@@ -106,7 +106,7 @@ aside h3 {
 }
 
 nav {
-	position: absolute;
+	position: fixed;
 	border: 0px;
 	border-top: 2px solid var(--yellow);
 	background: var(--green);
@@ -131,6 +131,7 @@ nav li {
 }
 
 nav a {
+	color: white;
 	padding: 0 5px 0 0;
 	border-radius: 5px;
 	padding-left: 10px;
