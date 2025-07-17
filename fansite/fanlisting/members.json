@@ -1,6 +1,38 @@
 
 { "fanlistingMembers":
   [
+      {
+      "name": "Uhe",
+      "favorite song": "nee",
+      "favorite album": "ポンコツ・オデッセイ / poncutsu odyssey",
+      "country":"South Korea",
+      "email": "",
+      "website": ""
+    },
+      {
+      "name": "Sakusya",
+      "favorite song": "ストロボライト(Strobe Light)",
+      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"Japan",
+      "email": "",
+      "website": "https://oiterudake.neocities.org/"
+    },
+      {
+      "name": "Chogo",
+      "favorite song": "stoy.",
+      "favorite album": "	powapoworks",
+      "country":"Japan",
+      "email": "",
+      "website": ""
+    },
+      {
+      "name": "Beki",
+      "favorite song": "Pallet Niha Kimi Ga Ippai",
+      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"Wales",
+      "email": "",
+      "website": "https://bekianee.art"
+    },
     {
       "name": "Yuukase",
       "favorite song": "forgot me not",
