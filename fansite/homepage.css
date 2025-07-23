@@ -7,24 +7,35 @@ body {
 	background-size: contain;
 }
 
-#navi a {
-	color: var(--yellow);
-	text-decoration: none;
+#navi {
+	text-align: center;
+
+	h2 {
+		text-align: left;
+	}
+	li {
+		display: inline;
+		&::before {
+			content: "「✦";
+			color: var(--pink);
+		}
+		&::after {
+			content: " ✦」";
+			color: var(--pink);
+		}
+	}
+
+	h3 {
+		display: inline-block;
+		margin: 5px 0px;
+	}
+
+	a {
+		color: var(--yellow);
+		text-decoration: none;
+	}
 }
 
 #counters p {
 	text-align: center;
-}
-
-@media only screen and (max-width: 1040px) {
-	#navi {
-		position: relative;
-		max-width: 100%;
-		width: auto;
-		margin: 20px 10px 0px 10px;
-		right: 0px;
-		left: 0px;
-		bottom: 0px;
-		top: 0px;
-	}
 }

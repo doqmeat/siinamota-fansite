@@ -3,6 +3,7 @@
 }
 
 :root {
+	--main-width: 650px;
 	--red: #8a3842;
 	--pink: #b76e68;
 	--yellow: #c69565;
@@ -71,24 +72,28 @@ hr {
 	border: 1px dashed var(--pink);
 }
 
-li {
-	list-style-position: inside;
-	margin-top: 10px;
-}
 nav,
 aside,
 header,
 .box {
 	border-radius: 20px;
-	background: rgb(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.947);
 	border: 1px dashed var(--pink);
 }
 
 header {
-	max-width: 600px;
+	max-width: var(--main-width);
 	padding: 10px;
 	overflow: hidden;
 	margin: 20px 0 0px 60px;
+
+	img {
+		transition-duration: 1s;
+	}
+
+	img:hover {
+		rotate: 350deg;
+	}
 }
 
 aside {
@@ -99,10 +104,9 @@ aside {
 	max-width: 300px;
 	max-height: 300px;
 	overflow: auto;
-}
-
-aside h3 {
-	margin: 4px;
+	h3 {
+		margin: 4px;
+	}
 }
 
 nav {
@@ -117,29 +121,30 @@ nav {
 	padding: 5px;
 	overflow: auto;
 	border-radius: 0px;
-}
-nav h2 {
-	text-align: left;
-}
-nav h3 {
-	display: inline;
-}
 
-nav li {
-	list-style-type: none;
-	display: inline-block;
-}
+	h2 {
+		text-align: left;
+	}
 
-nav a {
-	color: white;
-	padding: 0 5px 0 0;
-	border-radius: 5px;
-	padding-left: 10px;
-	text-decoration: none;
-}
+	h3 {
+		display: inline;
+	}
 
-nav a::before {
-	content: "～";
+	li {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	a {
+		color: white;
+		padding: 0 5px 0 0;
+		border-radius: 5px;
+		padding-left: 10px;
+		text-decoration: none;
+		&::before {
+			content: "～";
+		}
+	}
 }
 
 a {
@@ -148,11 +153,46 @@ a {
 	font-weight: bold;
 	transition-duration: 0.1s;
 	padding: 1px;
+
+	&.outlink::after,
+	&[target="_blank"]::after {
+		content: "↗";
+		padding-left: 2px;
+		vertical-align: text-bottom;
+	}
+
+	&:hover {
+		border-radius: 10px;
+		background: var(--purple);
+	}
 }
 
-a:hover {
-	border-radius: 10px;
-	background: var(--purple);
+ul,
+ol {
+	li {
+		margin-top: 10px;
+	}
+}
+
+ol {
+	li {
+		list-style: decimal-leading-zero;
+	}
+
+	::marker {
+		color: var(--green);
+	}
+}
+
+ul {
+	::marker {
+		color: var(--red);
+	}
+
+	li:hover::marker {
+		color: var(--green);
+		content: "~ ";
+	}
 }
 
 figure {
@@ -160,26 +200,29 @@ figure {
 	border: 1px solid var(--yellow);
 	padding: 20px;
 	margin: 20px 0;
-}
 
-figcaption {
-	text-align: center;
-	padding: 10px;
+	figcaption {
+		text-align: center;
+		padding: 10px;
+	}
 }
 
 .box {
 	position: relative;
-	max-width: 600px;
+	max-width: var(--main-width);
 	margin: 20px 0 20px 60px;
 	padding: 10px;
-}
 
-header img {
-	transition-duration: 1s;
-}
+	p:target {
+		background: var(--yellow);
+		color: white;
+		padding: 5px;
+		border-radius: 10px;
 
-header img:hover {
-	rotate: 350deg;
+		a {
+			color: var(--red);
+		}
+	}
 }
 
 footer#footer {
@@ -197,12 +240,6 @@ footer#footer {
 	border-radius: 10px;
 	color: white;
 	background: var(--pink);
-}
-
-.outlink::after {
-	content: "↗";
-	padding-left: 2px;
-	vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 1040px) {

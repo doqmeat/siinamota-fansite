@@ -7,8 +7,9 @@
 
 #album-box {
 	position: absolute;
-	top: 10px;
-	left: 700px;
+	top: 20px;
+	left: var(--main-width);
+	margin-left: 100px;
 	height: 660px;
 	padding: 0px;
 	overflow: hidden;
@@ -44,6 +45,7 @@ button.entry {
 	color: var(--yellow);
 	font-size: 15px;
 	overflow: hidden;
+	margin: 10px 5px;
 
 	a {
 		padding: 0px;
