@@ -1,6 +1,14 @@
 
 { "fanlistingMembers":
   [
+    {
+      "name": "dot",
+      "favorite song": "strobe last",
+      "favorite album": "",
+      "country":"United States",
+      "email": "",
+      "website": "heavymetalandreflective.nekoweb.org"
+    },
       {
       "name": "Uhe",
       "favorite song": "nee",
