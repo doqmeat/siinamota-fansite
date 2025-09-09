@@ -1,8 +1,31 @@
 
 { "fanlistingMembers":
   [
+     {
+      "name": "Nobineko",
+      "favorite song": "3-Nen C-gumi 14-ban Kubozono Chiyoko no nyūkaku",
+      "favorite album": "生きる / ikiru",
+      "country":"Perú",
+      "email": "",
+      "website": ""
+    },
     {
-      "name": "dot",
+      "name": "velvet",
+      "favorite song": "i care because",
+      "favorite album": "生きる / ikiru",
+      "country":"United States",
+      "email": "velvet . hairbow @ gmail . com",
+      "website": "https://velvetlove.neocities.org/"
+    },
+    {
+      "name": "mani",
+      "favorite song": "HANSHINHAN=GIMME",
+      "favorite album": "生きる / ikiru",
+      "country":"United States",
+      "email": "nukosphere @ gmail . com",
+      "website": "https://nukosphere.nekoweb.org/"
+    },
+      {"name": "dot",
       "favorite song": "strobe last",
       "favorite album": "N/A",
       "country":"United States",
