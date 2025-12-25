@@ -1,6 +1,38 @@
 
 { "fanlistingMembers":
   [
+  {
+      "name": "Agus",
+      "favorite song": "Strobe Light",
+      "favorite album": "award strobe hello",
+      "country":"Argentina",
+      "email": "am4170373 @ gmail dot com",
+      "website": ""
+    },
+      {
+      "name": "Angel",
+      "favorite song": "Someone Who Sings Songs (うたをうたうひと)",
+      "favorite album": "N/A",
+      "country":"United States",
+      "email": "",
+      "website": "https://rainfrog.nekoweb.org/"
+    },
+    {
+      "name": "Hank",
+      "favorite song": "City Lights",
+      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"Vietnam",
+      "email": "",
+      "website": "https://devhank.neocities.org/"
+    },
+    {
+      "name": "Kaz",
+      "favorite song": "strobe light",
+      "favorite album": "N/A",
+      "country":"United States",
+      "email": "",
+      "website": "https://kazeys.art/"
+    },
      {
       "name": "Nobineko",
       "favorite song": "3-Nen C-gumi 14-ban Kubozono Chiyoko no nyūkaku",
@@ -162,8 +194,8 @@
     },
         {
       "name": "Chara",
-      "favorite song": "夢のまにまに / yume no maniman",
-      "favorite album": "夢のまにまに / yume no maniman",
+      "favorite song": "夢のまにまに / yume no manimani",
+      "favorite album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "",
       "website": "https://hunipyon.neocities.org/"
