@@ -1,0 +1,9 @@
+#rss h3 {
+  display: none;
+}
+
+#rss div a {
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+}

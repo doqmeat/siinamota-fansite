@@ -1,0 +1,162 @@
+:root {
+	--teal: #8bc6b2;
+	--brown: #9a7b5e;
+	--red: #c82b2a;
+	--peach: #fbd38d;
+	--l-blue: #a0aec0;
+	--d-blue: #1a202c;
+	--fonts: natsuzemi, ms pgothic, arial;
+}
+
+mark {
+	background: var(--peach);
+}
+
+h1 {
+	color: var(--red);
+}
+
+h2 {
+	color: var(--l-blue);
+}
+
+h3 {
+	color: var(--brown);
+	text-align: center;
+}
+
+b {
+	color: var(--red);
+}
+
+u {
+	color: var(--brown);
+}
+
+::selection {
+	background: var(--red);
+	color: var(--peach);
+}
+
+.box:last-child {
+	margin-bottom: 60px;
+}
+
+.current {
+	color: var(--red);
+}
+
+.form {
+	min-height: 200px;
+}
+
+body {
+	font-family: var(--fonts);
+	margin: 0px;
+	background: #ffe0a7;
+	background-image: url(!g/bg.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	background-size: contain;
+	color: var(--d-blue);
+}
+
+summary {
+	cursor: help;
+}
+
+a {
+	text-decoration: underline;
+	transition-duration: 0.1s;
+	padding: 1px;
+	border-radius: 5px;
+	color: var(--teal);
+}
+
+a:hover {
+	background: var(--d-blue);
+	text-decoration: none;
+}
+
+li {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+}
+
+body {
+	font-size: 16px;
+	line-height: 20px;
+	word-spacing: 3px;
+	font-family: var(--fonts);
+	word-wrap: break-word;
+	word-break: normal;
+	margin: 0px;
+}
+
+header,
+.box {
+	border-radius: 20px;
+	background: rgb(255, 255, 255, 0.9);
+	border: 2px solid var(--l-blue);
+	box-shadow: 1px 1px 20px var(--l-blue) inset;
+	padding: 10px;
+	max-width: 600px;
+	padding: 20px;
+	overflow: auto;
+	margin: 20px 0 0px 60px;
+}
+
+nav {
+	border: 0px;
+	border-top: 2px solid var(--yellow);
+	color: white;
+	text-align: center;
+	z-index: 3;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	padding: 5px;
+	overflow: auto;
+	border-radius: 0px;
+	background: var(--l-blue);
+	text-shadow: none;
+	border-top: none;
+}
+
+nav a {
+	padding: 0 5px 0 0;
+	color: white;
+	border-radius: 5px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+nav a::before {
+	content: "～";
+}
+
+#s-m-t-tooltip {
+	max-width: 200px;
+	text-align: center;
+	z-index: 9999;
+	margin: 30px 15px 7px 12px;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+	background: var(--brown);
+}
+
+@media only screen and (max-width: 750px) {
+	header,
+	.box {
+		position: relative;
+		max-width: 100%;
+		margin: 20px 10px 0px 10px;
+		right: 0px;
+		left: 0px;
+		bottom: 0px;
+		top: 0px;
+	}
+}
