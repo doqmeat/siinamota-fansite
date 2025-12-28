@@ -1,19 +1,11 @@
----
-layout: main.html
-title: album scans & pics
-desc: scans and pictures of siinamota's CDs, booklets, and misc stuff. some scanned by me, by others, or taken from listings.
-cssFile: scans
-date-updated: 25.dec.25
----
-<p>if you or someone you know has one of the albums that i'm missing and is willing to take scans (preferably) or pics of everything please feel free to contact me via <a href="mailto:&#x6d;&#x65;&#x6f;&#x77;&commat;&#x64;&#x6f;&#x71;&#x6d;&#x65;&#x61;&#x74;&period;&#x63;&#x6f;&#x6d;">meow@doqmeat.com</a>! <a href="https://drive.google.com/drive/folders/1SdxqMtl4zJh2js3WsCa6UZchEenOmAYN?usp=drive_link" target="_blank">google drive folder</a></p>
-
 <h2>pages</h2>
 <h3>scanned</h3>
+<p>HD downloads: <a href="https://drive.google.com/drive/folders/1SdxqMtl4zJh2js3WsCa6UZchEenOmAYN?usp=drive_link" target="_blank">google drive folder</a> / <a title="my archive.org profile with siinamota stuff" href="https://archive.org/details/@doqmeat?and%5B%5D=subject%3A%22siinamota%22" target="_blank">archive.org</a></p>
 <div class="scan-buttons">
   {% for scanPage in collections.scanPage %}
   {% if scanPage.data.status == "scanned" %}
   <a class="page" href="{{ scanPage.url }}">
-    <img src="/files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
+    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
     <span class="title">{{ scanPage.data.title }}</span><span class="{{ scanPage.data.status }}"></span>
   </a>
   {% endif %}
@@ -21,11 +13,12 @@ date-updated: 25.dec.25
 </div>
 
 <h3>missing</h3>
+<p>if you or someone you know has one of the albums that i'm missing and is willing to take scans (preferably) or pics of everything please feel free to contact me via <a href="mailto:&#x6d;&#x65;&#x6f;&#x77;&commat;&#x64;&#x6f;&#x71;&#x6d;&#x65;&#x61;&#x74;&period;&#x63;&#x6f;&#x6d;">e-mail</a>!</p>
 <div class="scan-buttons">
   {% for scanPage in collections.scanPage %}
   {% if scanPage.data.status == "missing" %}
   <a class="page" href="{{ scanPage.url }}">
-    <img src="/files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
+    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
     <span class="title">{{ scanPage.data.title }}</span><span class="{{ scanPage.data.status }}"></span>
   </a>
   {% endif %}

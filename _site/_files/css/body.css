@@ -20,7 +20,7 @@ html {
 
 body {
 	font-size: 1rem;
-	background-image: url("/files/index/koke1.png");
+	background-image: url("/_files/index/koke1.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -30,8 +30,7 @@ body {
 	color: var(--text);
 	word-spacing: 3px;
 	font-family: var(--fonts);
-	word-wrap: break-word;
-	word-break: normal;
+	word-break: keep-all;
 	margin: 0px;
 }
 
@@ -63,7 +62,7 @@ header {
 	padding-top: 40px;
 	grid-area: header;
 	text-align: right;
-	background-image: url(/files/index/green-miku.png);
+	background-image: url(/_files/index/green-miku.png);
 	background-color: #929260;
 	background-size: 450px;
 	background-position: left center;
@@ -92,6 +91,10 @@ main {
 footer {
 	text-align: center;
 	grid-area: footer;
+	span.date {
+		font-weight: bold;
+		text-transform: lowercase;
+	}
 }
 
 nav {
