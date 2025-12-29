@@ -3,6 +3,9 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setServerPassthroughCopyBehavior("copy");
 
+	// stay in your lane girl...
+	eleventyConfig.setUseGitIgnore(false);
+
 	// folders and files that eleventy won't process
 	eleventyConfig.addPassthroughCopy("_files");
 	eleventyConfig.addPassthroughCopy("fanlisting");

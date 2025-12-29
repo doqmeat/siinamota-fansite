@@ -25,7 +25,7 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: white;
+	background-color: var(--bg);
 	line-height: 20px;
 	color: var(--text);
 	word-spacing: 3px;
@@ -37,7 +37,8 @@ body {
 #wrapper {
 	display: grid;
 	max-width: 900px;
-	margin: 10px auto;
+	padding: 10px;
+	margin: 20px auto 40px auto;
 	grid-template-areas:
 		"header header header"
 		"sidebar1 main main"
@@ -99,6 +100,7 @@ footer {
 
 nav {
 	position: sticky;
+	overflow: auto;
 	top: 0;
 	h2 {
 		text-align: center;
@@ -141,10 +143,20 @@ nav {
 
 section#side1 {
 	grid-area: sidebar1;
-}
-
-section#side2 {
-	grid-area: sidebar2;
+	button {
+		display: none;
+		padding-top: 5px;
+		z-index: 10;
+		text-align: left;
+		font-size: inherit;
+		font-family: inherit;
+		background: var(--bg);
+		color: inherit;
+		border: 1px solid var(--green);
+		border-bottom-right-radius: 5px;
+		border-top: 0;
+		border-left: 0;
+	}
 }
 
 summary {
@@ -223,5 +235,35 @@ hr {
 	background: var(--pink);
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 600px) {
+	#wrapper {
+		grid-template-areas:
+			"sidebar1 sidebar1 sidebar1"
+			"header header header"
+			"main main main"
+			"footer footer footer";
+		grid-template-columns: 0.3fr 3fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		padding: 0px;
+		margin: 0 0 50px 0;
+		/* grid-gap: 0; */
+	}
+	header,
+	main,
+	footer {
+		margin: auto 20px;
+	}
+
+	section#side1 {
+		overflow: auto;
+		nav {
+			display: none;
+			border-radius: 0px;
+			border: 0px;
+		}
+		button {
+			display: block;
+			position: fixed;
+		}
+	}
 }
