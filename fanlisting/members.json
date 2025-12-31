@@ -1,6 +1,14 @@
 
 { "fanlistingMembers":
   [
+      {
+      "name": "Ori",
+      "favorite song": "Goodbye Everyone",
+      "favorite album": "award strobe hello",
+      "country":"England",
+      "email": "",
+      "website": "https://orionsworkshop.neocities.org"
+    },
   {
       "name": "Agus",
       "favorite song": "Strobe Light",
