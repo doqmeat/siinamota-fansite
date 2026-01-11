@@ -1,0 +1,17 @@
+---
+title: discography
+desc: albums, EPs, and other songs siinamota has made or worked on!
+type: homepage
+---
+<h1>a work in progress!</h1>
+<h2>official releases</h2>
+<div class="disco-buttons">
+  {% for discoPage in collections.discoPage %}
+  {% unless discoPage.data.type == "homepage" %}
+  <a class="release" href="{{ discoPage.url }}">
+    <img src="/_files/{{ discoPage.data.image }}.jpg" alt="{{ discoPage.data.titleR }} album cover">
+    <span class="title">{{ discoPage.data.title }}</span>
+  </a>
+  {% endunless %}
+  {% endfor %}
+</div>

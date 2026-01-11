@@ -1,0 +1,55 @@
+img {
+	max-width: 100%;
+}
+
+.disco-buttons {
+	column-count: 3;
+	column-gap: 20px;
+}
+
+a.release {
+	margin: 10px 0;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid var(--pink);
+	text-decoration: none;
+	img {
+		display: block;
+		max-width: 100%;
+	}
+	.title {
+		color: var(--purple);
+	}
+	.scanned {
+		color: var(--green);
+	}
+	.missing {
+		color: var(--red);
+	}
+
+	&:hover {
+		background: var(--pink);
+		.title,
+		.missing,
+		.scanned {
+			color: var(--bg);
+		}
+	}
+}
+
+section#info {
+	p {
+		margin: 0px;
+		padding: 10px;
+	}
+
+	img {
+		z-index: 10;
+		float: left;
+		margin: 10px;
+		width: 190px;
+	}
+}
