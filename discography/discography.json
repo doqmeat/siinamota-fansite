@@ -1,6 +1,6 @@
 {
   "cssFile": "discography",
-  "title":"discography",
+  "layout": "discography",
   "desc": "albums, EPs, and other songs siinamota has made or worked on!",
   "tags": "discoPage"
 }

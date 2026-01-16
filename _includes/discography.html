@@ -1,0 +1,15 @@
+---
+layout: main.html
+---
+<h2>{{ release }}</h2>
+<section id="info">
+  {% if image %}<img src="/_files/{{ image }}.jpg" alt="album-cover">{% endif %}
+  {% if titleJ %}<p><b>japanese title:</b> {{ titleJ }}</p>{% endif %}
+  {% if titleR %}<p><b>romanized title:</b> {{ titleR }}</p>{% endif %}
+  {% if titleT %}<p><b>translated title:</b> {{ titleT }}</p>{% endif %}
+  <p><b>type:</b> {{ type }}</p>
+  <p><b>release date:</b> {{ releasedDate }}</p>
+  {% if vocadb %}<p><b>vocaloid database:</b> <a href="https://{{ vocadb }}" target="_blank">link</a></p>{% endif %}
+</section>
+
+{{ content }}

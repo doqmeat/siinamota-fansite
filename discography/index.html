@@ -9,8 +9,8 @@ type: homepage
   {% for discoPage in collections.discoPage %}
   {% unless discoPage.data.type == "homepage" %}
   <a class="release" href="{{ discoPage.url }}">
-    <img src="/_files/{{ discoPage.data.image }}.jpg" alt="{{ discoPage.data.titleR }} album cover">
-    <span class="title">{{ discoPage.data.title }}</span>
+    <img src="/_files/{{ discoPage.data.image }}.jpg" alt="{{ discoPage.data.release }} album cover">
+    <span class="title">{{ discoPage.data.release }}</span>
   </a>
   {% endunless %}
   {% endfor %}

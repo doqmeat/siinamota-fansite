@@ -1,24 +1,22 @@
 ---
+title: sepia record info
+titleJ: セピアレコード
 titleR: sepia record
-title: セピアレコード
+release: sepia record
 releasedDate: 14 november 2010
 type: album
 image: scans/sepia-record/cover
 vocadb: vocadb.net/Al/1184
+tags:
+- sepia-record
 ---
-<h2>{{ title }}</h2>
-<section id="info">
-  <img src="/_files/{{ image }}.jpg" alt="album-cover">
-  <p><b>romanized title:</b> {{ titleR }}</p>
-  <p><b>translated title:</b> {{ titleT }}</p>
-  <p><b>type:</b> {{ type }}</p>
-  <p><b>release date:</b> {{ releasedDate }}</p>
-  <p><b>vocaloid database:</b> <a href="https://{{ vocadb }}" target="_blank">link</a></p>
-</section>
-
 <h3>related links</h3>
 <ul>
-  <li>sepia record <a href="/scans/sepia-record.html">scan page</a></li>
+  {% for linkP in collections.sepia-record %}
+  {% unless page.url == linkP.url %}
+  <li><a href="{{ linkP.url }}">{{ linkP.data.title }}</a></li>
+  {% endunless %}
+  {% endfor %}
 </ul>
 
 <h3>listen</h3>
@@ -26,12 +24,32 @@ vocadb: vocadb.net/Al/1184
 <p>download: <a href="https://mikudb.moe/album/sepiarecord/" target="_blank">mikudb</a></p>
 
 <h3>crossfade</h3>
-<iframe style="width: 100%; height: 300px;" src="https://embed.nicovideo.jp/watch/nm12567117?autoplay=0" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms allow-same-origin allow-storage-access-by-user-activation allow-popups-to-escape-sandbox" allowfullscreen=""></iframe>
-
-<h3>full album</h3>
-<iframe width="100%" height="300" src="https://www.youtube.com/embed/XQcVYAWbLAA" title="Powapowa-P - Sepia Record Full Album" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="300" src="https://embed.nicovideo.jp/watch/nm12567117?autoplay=0" frameborder="0" allowfullscreen=""></iframe>
 
 <h3>tracklist</h3>
+<iframe id="tracks" width="100%" height="300" src="https://www.youtube.com/embed/XQcVYAWbLAA" frameborder="0" allowfullscreen=""></iframe>
 <ol>
-  <li>?</li>
+  <li>intro=sepiarecord </li>
+  <li>zinnia to meme</li>
+  <li>one dramatic etc...</li>
+  <li>oyasumi express</li>
+  <li>regrets &amp; floatage</li>
+  <li>brown</li>
+  <li>stoy.</li>
+  <li>brown b.z.m-mix</li>
+  <li>one dramatic etc... itikura_Remix</li>
+  <li>sky fish</li>
+  <li>999</li>
+  <li>ohayou</li>
+  <!-- NABIroHCewk , nm10596396 -->
 </ol>
+
+<h2>my thoughts</h2>
+<p>WIP!</p>
+
+
+
+
+<script>
+
+</script>

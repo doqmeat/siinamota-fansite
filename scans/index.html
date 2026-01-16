@@ -1,3 +1,6 @@
+---
+title: album scans & pics
+---
 <h2>pages</h2>
 <h3>scanned</h3>
 <p>HD downloads: <a href="https://drive.google.com/drive/folders/1SdxqMtl4zJh2js3WsCa6UZchEenOmAYN?usp=drive_link" target="_blank">google drive folder</a> / <a title="my archive.org profile with siinamota stuff" href="https://archive.org/details/@doqmeat?and%5B%5D=subject%3A%22siinamota%22" target="_blank">archive.org</a></p>
@@ -5,8 +8,8 @@
   {% for scanPage in collections.scanPage %}
   {% if scanPage.data.status == "scanned" %}
   <a class="page" href="{{ scanPage.url }}">
-    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
-    <span class="title">{{ scanPage.data.title }}</span><span class="{{ scanPage.data.status }}"></span>
+    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.album }} thumbnail">
+    <span class="title">{{ scanPage.data.album }}</span><span class="{{ scanPage.data.status }}"></span>
   </a>
   {% endif %}
   {% endfor %}
@@ -18,8 +21,8 @@
   {% for scanPage in collections.scanPage %}
   {% if scanPage.data.status == "missing" %}
   <a class="page" href="{{ scanPage.url }}">
-    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.title }} thumbnail">
-    <span class="title">{{ scanPage.data.title }}</span><span class="{{ scanPage.data.status }}"></span>
+    <img src="/_files/scans/{{ scanPage.data.image }}.jpg" alt="{{ scanPage.data.album }} thumbnail">
+    <span class="title">{{ scanPage.data.album }}</span><span class="{{ scanPage.data.status }}"></span>
   </a>
   {% endif %}
   {% endfor %}
