@@ -52,7 +52,7 @@ u {
 
 body {
 	font-family: var(--fonts);
-	margin: 0px;
+	padding-top: 50px;
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
 	background-repeat: no-repeat;
@@ -110,13 +110,12 @@ header,
 
 nav {
 	border: 0px;
-	border-top: 2px solid var(--yellow);
 	color: white;
 	text-align: center;
 	z-index: 3;
 	width: 100%;
 	position: fixed;
-	bottom: 0px;
+	top: 0px;
 	padding: 5px;
 	overflow: auto;
 	border-radius: 0px;
@@ -126,9 +125,7 @@ nav {
 }
 
 nav a {
-	padding: 0 5px 0 0;
 	color: white;
-	border-radius: 5px;
 	padding-left: 10px;
 	text-decoration: none;
 }
