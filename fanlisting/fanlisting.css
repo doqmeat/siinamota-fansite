@@ -56,7 +56,7 @@ body {
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: right top;
 	background-attachment: fixed;
 	background-size: contain;
 	color: var(--d-blue);
@@ -101,7 +101,6 @@ header,
 	background: rgb(255, 255, 255, 0.9);
 	border: 2px solid var(--l-blue);
 	box-shadow: 1px 1px 20px var(--l-blue) inset;
-	padding: 10px;
 	max-width: 600px;
 	padding: 20px;
 	overflow: auto;
