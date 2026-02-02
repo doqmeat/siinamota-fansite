@@ -52,11 +52,11 @@ u {
 
 body {
 	font-family: var(--fonts);
-	margin: 0px;
+	padding-top: 50px;
 	background: #ffe0a7;
 	background-image: url(!g/bg.png);
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: right top;
 	background-attachment: fixed;
 	background-size: contain;
 	color: var(--d-blue);
@@ -101,7 +101,6 @@ header,
 	background: rgb(255, 255, 255, 0.9);
 	border: 2px solid var(--l-blue);
 	box-shadow: 1px 1px 20px var(--l-blue) inset;
-	padding: 10px;
 	max-width: 600px;
 	padding: 20px;
 	overflow: auto;
@@ -110,13 +109,12 @@ header,
 
 nav {
 	border: 0px;
-	border-top: 2px solid var(--yellow);
 	color: white;
 	text-align: center;
 	z-index: 3;
 	width: 100%;
 	position: fixed;
-	bottom: 0px;
+	top: 0px;
 	padding: 5px;
 	overflow: auto;
 	border-radius: 0px;
@@ -126,9 +124,7 @@ nav {
 }
 
 nav a {
-	padding: 0 5px 0 0;
 	color: white;
-	border-radius: 5px;
 	padding-left: 10px;
 	text-decoration: none;
 }
