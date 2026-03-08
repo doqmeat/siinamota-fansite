@@ -9,6 +9,9 @@
 	<title>hepatica scans</title>
 	<link href="/_files/fonts/stylesheet.css" rel="stylesheet">
 	<link href="/_files/css/body.css" rel="stylesheet">
+	<!-- pagefind -->
+	<link href="/_files/css/pagefind.css" rel="stylesheet">
+	<script src="/pagefind/pagefind-ui.js"></script>
 	
 	<link href="/_files/css/scans.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
@@ -20,14 +23,15 @@
 	<div id="wrapper">
 		<header>
 			<!-- changes the title of the scans -->
-			<h1> album scans & pics </h1>
+			<h1>hepatica scans</h1>
 			 <p>scans and pictures of siinamota's CDs, booklets, and misc stuff. some scanned by me, by others, or taken from listings.</p> 
 		</header>
 		<section id="side1">
-			<button title="navigation" onclick="showNav()"><img src="/_files/index/burger.png" alt="open navigation" width="30px"></button>
-			<nav>
+			<button onclick="showNav()" alt="havigation button"><img src="/_files/index/burger.png" width="30px"></button>
+			<nav data-pagefind-ignore>
 				<h2>sitemap</h2>
 				<a href="/">home</a>
+				<a href="/search">search</a>
 				<h3>siinamota</h3>
 				<a href="/discography">discography</a>
 				<a href="/scans">scans</a>

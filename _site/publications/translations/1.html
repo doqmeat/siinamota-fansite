@@ -9,6 +9,9 @@
 	<title>The manga-like life of Siinamota, who survived criticism and anxiety</title>
 	<link href="/_files/fonts/stylesheet.css" rel="stylesheet">
 	<link href="/_files/css/body.css" rel="stylesheet">
+	<!-- pagefind -->
+	<link href="/_files/css/pagefind.css" rel="stylesheet">
+	<script src="/pagefind/pagefind-ui.js"></script>
 	
 	<link href="/_files/css/translation.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
@@ -20,14 +23,15 @@
 	<div id="wrapper">
 		<header>
 			<!-- changes the title of the scans -->
-			<h1>  The manga-like life of Siinamota, who survived criticism and anxiety </h1>
+			<h1>The manga-like life of Siinamota, who survived criticism and anxiety</h1>
 			 <p>a translated interview by Alraisen Avecesdario</p> 
 		</header>
 		<section id="side1">
-			<button title="navigation" onclick="showNav()"><img src="/_files/index/burger.png" alt="open navigation" width="30px"></button>
-			<nav>
+			<button onclick="showNav()" alt="havigation button"><img src="/_files/index/burger.png" width="30px"></button>
+			<nav data-pagefind-ignore>
 				<h2>sitemap</h2>
 				<a href="/">home</a>
+				<a href="/search">search</a>
 				<h3>siinamota</h3>
 				<a href="/discography">discography</a>
 				<a href="/scans">scans</a>
