@@ -1,0 +1,22 @@
+{
+  "name": "siinamota",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx pagefind --site _site && npx @11ty/eleventy",
+    "watch":"npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doqmeat/siinamota-fansite.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/doqmeat/siinamota-fansite/issues"
+  },
+  "homepage": "https://github.com/doqmeat/siinamota-fansite#readme",
+  "devDependencies": {
+    "luxon": "^3.7.2"
+  }
+}
