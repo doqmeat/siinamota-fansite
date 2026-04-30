@@ -1,6 +1,70 @@
 
 { "fanlistingMembers":
   [
+                                  {
+      "name": "Echo Higgins",
+      "favorite song": "Nee",
+      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"United States",
+      "email": "lh5622347 @ gmail dot com",
+      "website": ""
+    },
+                              {
+      "name": "madscientistfaust",
+      "favorite song": "Pikkooon!!!",
+      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"United States",
+      "email": "",
+      "website": ""
+    },
+                          {
+      "name": "Lumi",
+      "favorite song": "The Entry Into The Cabinet of 3rd Class-C No.14 Chiyoko Kubozono",
+      "favorite album": "生きる / ikiru",
+      "country":"United States",
+      "email": "",
+      "website": "https://toonilumi.neocities.org/"
+    },
+                      {
+      "name": "Lumi",
+      "favorite song": "The Entry Into The Cabinet of 3rd Class-C No.14 Chiyoko Kubozono",
+      "favorite album": "生きる / ikiru",
+      "country":"United States",
+      "email": "",
+      "website": ""
+    },
+                      {
+      "name": "Kiirakiraapii",
+      "favorite song": "sayonarawoiwazuni",
+      "favorite album": "故に / therefor.",
+      "country":"Indonesia",
+      "email": "",
+      "website": ""
+    },
+                  {
+      "name": "Ray G",
+      "favorite song": "Help Yourself to Seconds",
+      "favorite album": "夢のまにまに / yume no manimani",
+      "country":"United States",
+      "email": "supahkitty @ gmail dot com",
+      "website": ""
+    },
+              {
+      "name": "Sophia",
+      "favorite song": "Q",
+      "favorite album": "award strobe hello",
+      "country":"Brazil",
+      "email": "",
+      "website": ""
+    },
+          {
+      "name": "Hugo Louzada",
+      "favorite song": "さよーならみなさん",
+      "favorite album": "故に / therefor.",
+      "country":"Brazil",
+      "email": "",
+      "website": ""
+    },
       {
       "name": "Ori",
       "favorite song": "Goodbye Everyone",
