@@ -1,0 +1,19 @@
+ol {
+	padding-left: 20px;
+}
+
+li {
+	padding: 5px 2px;
+	list-style: decimal;
+}
+
+li p {
+	margin: 0px;
+	padding-left: 20px;
+	color: var(--brown);
+}
+
+li span {
+	text-shadow: 2px 1px 1px var(--peach);
+	font-style: oblique;
+}

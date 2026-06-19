@@ -133,15 +133,17 @@ nav a::before {
 	content: "～";
 }
 
-#s-m-t-tooltip {
-	max-width: 200px;
-	text-align: center;
-	z-index: 9999;
-	margin: 30px 15px 7px 12px;
-	padding: 5px;
-	border-radius: 10px;
+.tippy-box[data-theme~="des"] {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
 	color: white;
 	background: var(--brown);
+}
+
+.tippy-box[data-theme~="des"][data-placement^="top"] > .tippy-arrow::before,
+.tippy-box[data-theme~="des"][data-placement^="bottom"] > .tippy-arrow::before {
+	color: var(--brown);
 }
 
 @media only screen and (max-width: 750px) {

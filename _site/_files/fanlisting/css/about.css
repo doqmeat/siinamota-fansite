@@ -1,0 +1,21 @@
+.cover {
+	display: inline;
+	transition-delay: 0.5s;
+}
+
+.cover img {
+	display: none;
+	z-index: 10;
+}
+
+.cover:hover img {
+	position: absolute;
+	border: 2px solid var(--teal);
+	border-radius: 10px;
+	display: inline;
+	width: 300px;
+}
+
+li a {
+	text-decoration: none;
+}

@@ -8,7 +8,6 @@ module.exports = function (eleventyConfig) {
 
 	// folders and files that eleventy won't process
 	eleventyConfig.addPassthroughCopy("_files");
-	eleventyConfig.addPassthroughCopy("fanlisting");
 	eleventyConfig.addPassthroughCopy("bot");
 	eleventyConfig.addPassthroughCopy("rss.xml");
 
@@ -24,6 +23,11 @@ module.exports = function (eleventyConfig) {
 
 	// custom page.date ----- {{ page.date | postDate }}
 	eleventyConfig.addFilter("postDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj).toFormat("dd.MMM.yy");
+		return DateTime.fromJSDate(dateObj).setZone("utc").toFormat("dd.MMM.yy");
+	});
+
+	// fanlisting date
+	eleventyConfig.addFilter("fanlistingDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj).setZone("utc").toFormat("dd MMMM yyyy");
 	});
 };

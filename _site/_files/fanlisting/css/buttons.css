@@ -1,0 +1,9 @@
+textarea {
+	width: 100%;
+	background: var(--peach);
+	font-family: var(--fonts);
+	font-size: 12px;
+	border-style: dashed;
+	border-color: var(--red);
+	border-radius: 10px;
+}

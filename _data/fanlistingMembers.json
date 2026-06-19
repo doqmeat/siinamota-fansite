@@ -1,385 +1,385 @@
-
-{ "fanlistingMembers":
-  [
+{
+  "pending": 4,
+  "members":  [
                                   {
       "name": "Echo Higgins",
-      "favorite song": "Nee",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "Nee",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"United States",
       "email": "lh5622347 @ gmail dot com",
       "website": ""
     },
                               {
       "name": "madscientistfaust",
-      "favorite song": "Pikkooon!!!",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "Pikkooon!!!",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"United States",
       "email": "",
       "website": ""
     },
                       {
       "name": "Lumi",
-      "favorite song": "The Entry Into The Cabinet of 3rd Class-C No.14 Chiyoko Kubozono",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "The Entry Into The Cabinet of 3rd Class-C No.14 Chiyoko Kubozono",
+      "fav_album": "生きる / ikiru",
       "country":"United States",
       "email": "",
       "website": ""
     },
                       {
       "name": "Kiirakiraapii",
-      "favorite song": "sayonarawoiwazuni",
-      "favorite album": "故に / therefor.",
+      "fav_song": "sayonarawoiwazuni",
+      "fav_album": "故に / therefor.",
       "country":"Indonesia",
       "email": "",
       "website": ""
     },
                   {
       "name": "Ray G",
-      "favorite song": "Help Yourself to Seconds",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "Help Yourself to Seconds",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "supahkitty @ gmail dot com",
       "website": ""
     },
               {
       "name": "Sophia",
-      "favorite song": "Q",
-      "favorite album": "award strobe hello",
+      "fav_song": "Q",
+      "fav_album": "award strobe hello",
       "country":"Brazil",
       "email": "",
       "website": ""
     },
           {
       "name": "Hugo Louzada",
-      "favorite song": "さよーならみなさん",
-      "favorite album": "故に / therefor.",
+      "fav_song": "さよーならみなさん",
+      "fav_album": "故に / therefor.",
       "country":"Brazil",
       "email": "",
       "website": ""
     },
       {
       "name": "Ori",
-      "favorite song": "Goodbye Everyone",
-      "favorite album": "award strobe hello",
+      "fav_song": "Goodbye Everyone",
+      "fav_album": "award strobe hello",
       "country":"England",
       "email": "",
       "website": "https://orionsworkshop.neocities.org"
     },
   {
       "name": "Agus",
-      "favorite song": "Strobe Light",
-      "favorite album": "award strobe hello",
+      "fav_song": "Strobe Light",
+      "fav_album": "award strobe hello",
       "country":"Argentina",
       "email": "am4170373 @ gmail dot com",
       "website": ""
     },
       {
       "name": "Angel",
-      "favorite song": "Someone Who Sings Songs (うたをうたうひと)",
-      "favorite album": "N/A",
+      "fav_song": "Someone Who Sings Songs (うたをうたうひと)",
+      "fav_album": "N/A",
       "country":"United States",
       "email": "",
       "website": "https://rainfrog.nekoweb.org/"
     },
     {
       "name": "Hank",
-      "favorite song": "City Lights",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "City Lights",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"Vietnam",
       "email": "",
       "website": "https://devhank.neocities.org/"
     },
     {
       "name": "Kaz",
-      "favorite song": "strobe light",
-      "favorite album": "N/A",
+      "fav_song": "strobe light",
+      "fav_album": "N/A",
       "country":"United States",
       "email": "",
       "website": "https://kazeys.art/"
     },
      {
       "name": "Nobineko",
-      "favorite song": "3-Nen C-gumi 14-ban Kubozono Chiyoko no nyūkaku",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "3-Nen C-gumi 14-ban Kubozono Chiyoko no nyūkaku",
+      "fav_album": "生きる / ikiru",
       "country":"Perú",
       "email": "",
       "website": ""
     },
     {
       "name": "velvet",
-      "favorite song": "i care because",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "i care because",
+      "fav_album": "生きる / ikiru",
       "country":"United States",
       "email": "velvet . hairbow @ gmail . com",
       "website": "https://velvetlove.neocities.org/"
     },
     {
       "name": "mani",
-      "favorite song": "HANSHINHAN=GIMME",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "HANSHINHAN=GIMME",
+      "fav_album": "生きる / ikiru",
       "country":"United States",
       "email": "nukosphere @ gmail . com",
       "website": "https://nukosphere.nekoweb.org/"
     },
       {"name": "dot",
-      "favorite song": "strobe last",
-      "favorite album": "N/A",
+      "fav_song": "strobe last",
+      "fav_album": "N/A",
       "country":"United States",
       "email": "",
       "website": "https://heavymetalandreflective.nekoweb.org"
     },
       {
       "name": "Uhe",
-      "favorite song": "nee",
-      "favorite album": "ポンコツ・オデッセイ / poncutsu odyssey",
+      "fav_song": "nee",
+      "fav_album": "ポンコツ・オデッセイ / poncutsu odyssey",
       "country":"South Korea",
       "email": "",
       "website": ""
     },
       {
       "name": "Sakusya",
-      "favorite song": "ストロボライト(Strobe Light)",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "ストロボライト(Strobe Light)",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"Japan",
       "email": "",
       "website": "https://oiterudake.neocities.org/"
     },
       {
       "name": "Chogo",
-      "favorite song": "stoy.",
-      "favorite album": "powapoworks",
+      "fav_song": "stoy.",
+      "fav_album": "powapoworks",
       "country":"Japan",
       "email": "",
       "website": ""
     },
       {
       "name": "Beki",
-      "favorite song": "Pallet Niha Kimi Ga Ippai",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "Pallet Niha Kimi Ga Ippai",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"Wales",
       "email": "",
       "website": "https://bekianee.art"
     },
     {
       "name": "Yuukase",
-      "favorite song": "forgot me not",
-      "favorite album": "故に / therefor",
+      "fav_song": "forgot me not",
+      "fav_album": "故に / therefor",
       "country":"United Kingdom",
       "email": "",
       "website": ""
     },
             {
       "name": "Rin",
-      "favorite song": "Strobe Light + Hanshin Han=Gimme",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "Strobe Light + Hanshin Han=Gimme",
+      "fav_album": "生きる / ikiru",
       "country":"United States",
       "email": "",
       "website": "https://sunfishdreamworld.neocities.org/"
     },
         {
       "name": "vernie j.",
-      "favorite song": "hello strobe (a human works)",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "hello strobe (a human works)",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "forteyume @ gmail (.) com",
       "website": "https://coolwisesimpleton.tumblr.com"
     },
     {
       "name": "Kori",
-      "favorite song": "MOSAIC",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "MOSAIC",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"Brazil",
       "email": "",
       "website": "https://fanlistings.melankorin.net/"
     },
         {
       "name": "Luhrias",
-      "favorite song": "Not even allowed to get old",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "Not even allowed to get old",
+      "fav_album": "生きる / ikiru",
       "country":"Germany",
       "email": "",
       "website": ""
     },
             {
       "name": "Sofa",
-      "favorite song": "please tell me Mr.wonder",
-      "favorite album": "award strobe hello",
+      "fav_song": "please tell me Mr.wonder",
+      "fav_album": "award strobe hello",
       "country":"Colombia",
       "email": "adictaalkashxdxd @ gmail(.)com",
       "website": ""
     },
         {
       "name": "Raul",
-      "favorite song": "Healthy End",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "Healthy End",
+      "fav_album": "生きる / ikiru",
       "country":"Brazil",
       "email": "",
       "website": ""
     },
             {
       "name": "Shellfish",
-      "favorite song": "sayonarawoiwazuni",
-      "favorite album": "故に / therefor.",
+      "fav_song": "sayonarawoiwazuni",
+      "fav_album": "故に / therefor.",
       "country":"United States",
       "email": "",
       "website": ""
     },
         {
       "name": "Emmy",
-      "favorite song": "Q",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "Q",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"United States",
       "email": "",
       "website": "https://gattonero.moe/"
     },
             {
       "name": "Len-P",
-      "favorite song": "[all!]",
-      "favorite album": "alpa",
+      "fav_song": "[all!]",
+      "fav_album": "alpa",
       "country":"Italy",
       "email": "",
       "website": ""
     },
         {
       "name": "Juno",
-      "favorite song": "夢のまにまに / yume no manimani",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "夢のまにまに / yume no manimani",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "",
       "website": "https://juxtajuno.neocities.org"
     },
     {
       "name": "Rainer",
-      "favorite song": "help yourself to seconds",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "help yourself to seconds",
+      "fav_album": "生きる / ikiru",
       "country":"United States",
       "email": "",
       "website": "https://silt.neocities.org"
     },
         {
       "name": "Chara",
-      "favorite song": "夢のまにまに / yume no manimani",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "夢のまにまに / yume no manimani",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "",
       "website": "https://hunipyon.neocities.org/"
     },
         {
       "name": "Kito",
-      "favorite song": "Lost &amp; Found",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "Lost &amp; Found",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "splutterguttss.info (at) gmail . com",
       "website": "https://hazure03.neocities.org/"
     },
         {
       "name": "Amelie",
-      "favorite song": "怪盗・窪園チヨコは絶対ミスらない",
-      "favorite album": "powapowork",
+      "fav_song": "怪盗・窪園チヨコは絶対ミスらない",
+      "fav_album": "powapowork",
       "country":"Brazil",
       "email": "catherinemioda (at) gmail . com",
       "website": ""
     },
         {
       "name": "Bobiebobs",
-      "favorite song": "young girl a (strobe light close second)",
-      "favorite album": "生きる / ikiru",
+      "fav_song": "young girl a (strobe light close second)",
+      "fav_album": "生きる / ikiru",
       "country":"United Kingdom",
       "email": "",
       "website": "https://bobiebobs.neocities.org"
     },
         {
       "name": "Moga",
-      "favorite song": "strobe last",
-      "favorite album": "ward strobe hello",
+      "fav_song": "strobe last",
+      "fav_album": "ward strobe hello",
       "country":"United States",
       "email": "",
       "website": ""
     },
         {
       "name": "Meek",
-      "favorite song": "astronauts",
-      "favorite album": "award strobe hello",
+      "fav_song": "astronauts",
+      "fav_album": "award strobe hello",
       "country":"United States",
       "email": "",
       "website": "https://mikufan3939.neocities.org/"
     },
         {
       "name": "Ebi",
-      "favorite song": "vanilla flavor piece",
-      "favorite album": "セピアレコード / sepia record",
+      "fav_song": "vanilla flavor piece",
+      "fav_album": "セピアレコード / sepia record",
       "country":"Australia",
       "email": "shrimp9379 (at) gmail . com",
       "website": ""
     },
         {
       "name": "Aster",
-      "favorite song": "sora no sakana / sky fish + usonaki tsukuriwarai",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "sora no sakana / sky fish + usonaki tsukuriwarai",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"United States",
       "email": "",
       "website": ""
     },
         {
       "name": "Corndogboi",
-      "favorite song": "[can't choose!]",
-      "favorite album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "fav_song": "[can't choose!]",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
       "country":"United States",
       "email": "",
       "website": ""
     },
         {
       "name": "Erraticpillars",
-      "favorite song": "in my head",
-      "favorite album": " 1, repeat 2, sleeping 3, overdose",
+      "fav_song": "in my head",
+      "fav_album": " 1, repeat 2, sleeping 3, overdose",
       "country":"Cambodia",
       "email": "",
       "website": ""
     },
         {
       "name": "Tessa",
-      "favorite song": "オカワリヲドーゾ",
-      "favorite album": " 1, repeat 2, sleeping 3, overdose",
+      "fav_song": "オカワリヲドーゾ",
+      "fav_album": " 1, repeat 2, sleeping 3, overdose",
       "country":"Poland",
       "email": "nakanainakanai123 (at) gmail . com",
       "website": "https://tessa.nekoweb.org"
     },
         {
       "name": "Emma",
-      "favorite song": "ドラッグスコア / drug score",
-      "favorite album": "award strobe hello",
+      "fav_song": "ドラッグスコア / drug score",
+      "fav_album": "award strobe hello",
       "country":"United States",
       "email": "",
       "website": ""
     },
     {
       "name": "Sabrin",
-      "favorite song": "N/A",
-      "favorite album": "1, repeat 2, sleeping 3, overdose",
+      "fav_song": "N/A",
+      "fav_album": "1, repeat 2, sleeping 3, overdose",
       "country":"United States",
       "email": "",
       "website": "https://sabrin.party"
     },
     {
       "name": "Esper",
-      "favorite song": "おやすみの中おやすみ / oyasumi no naka oyasumi",
-      "favorite album": "award strobe hello",
+      "fav_song": "おやすみの中おやすみ / oyasumi no naka oyasumi",
+      "fav_album": "award strobe hello",
       "country":"United States",
       "email": "",
       "website": ""
     },
     {
       "name": "Azriel",
-      "favorite song": "夢のまにまに / yume no manimani",
-      "favorite album": "夢のまにまに / yume no manimani",
+      "fav_song": "夢のまにまに / yume no manimani",
+      "fav_album": "夢のまにまに / yume no manimani",
       "country":"United States",
       "email": "",
       "website": ""
     },
     {
       "name": "Des",
-      "favorite song": "999",
-      "favorite album": "セピアレコード / sepia secord",
+      "fav_song": "999",
+      "fav_album": "セピアレコード / sepia secord",
       "country":"Puerto Rico",
       "email": "doqmeat (at) gmail.com",
       "website": "https://doqmeat.com"

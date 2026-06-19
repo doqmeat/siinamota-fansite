@@ -1,10 +1,11 @@
-		(function($) {
-			$(document).ready(function() {
-				$("[title]").style_my_tooltips({
-					tip_follows_cursor: true,
-					tip_delay_time: 10,
-					tip_fade_speed: 10,
-					attribute: "title"
-				});
-			});
-		})(jQuery);
+tippy("[title]", {
+	content(reference) {
+		const title = reference.getAttribute("title");
+		reference.removeAttribute("title");
+		return title;
+	},
+	followCursor: true,
+	theme: "des",
+	interactive: false,
+	maxWidth: 250,
+});

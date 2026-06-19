@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- coded with love by des
+started working on this since: 23.may.24 -->
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/_files/fanlisting/favicon.gif">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% unless page.url == "/fanlisting/" %}siinamota fanlisting - {% endunless %}{{ title }}</title>
+  <link href="/_files/fonts/stylesheet.css" rel="stylesheet">
+  <link href="/_files/fanlisting/css/body.css" rel="stylesheet">
+  {% if css %}
+  <link rel="stylesheet" href="/_files/fanlisting/css/{{ css }}.css">{% endif %}
+</head>
+
+<body>
+  <nav>
+    <a href="#">top</a>
+    <a {% if page.url=="/fanlisting/" %}class="current" {% endif %} href="index.html">home</a>
+    <a {% if page.url=="/fanlisting/buttons.html" %}class="current" {% endif %}href="buttons.html">buttons</a>
+    <a {% if page.url=="/fanlisting/join.html" %}class="current" {% endif %}href="join.html">join</a>
+    <a {% if page.url=="/fanlisting/update.html" %}class="current" {% endif %}href="update.html">update</a>
+    <a {% if page.url=="/fanlisting/members.html" %}class="current" {% endif %}href="members.html">members</a>
+    <a {% if page.url=="/fanlisting/about.html" %}class="current" {% endif %}href="about.html">about</a>
+  </nav>
+
+  {% unless page.url == "/fanlisting/" %}
+  <header>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+  </header>
+  {% endunless %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="/_files/tooltip.js"></script>
+</body>
+
+</html>
