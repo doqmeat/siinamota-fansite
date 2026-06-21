@@ -54,7 +54,7 @@ body {
 	font-family: var(--fonts);
 	padding-top: 50px;
 	background: #ffe0a7;
-	background-image: url(!g/bg.png);
+	background-image: url(../bg.png);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: fixed;

@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
 	// default layout: main.html
 	eleventyConfig.addGlobalData("layout", "main.html");
 	// default date format
-	eleventyConfig.addGlobalData("date", "git Last Modified");
+	eleventyConfig.addGlobalData("date", "Last Modified");
 
 	// shortcode for year {% year %} --- not using it rn
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
