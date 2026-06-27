@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
 	// folders and files that eleventy won't process
 	eleventyConfig.addPassthroughCopy("_files");
 	eleventyConfig.addPassthroughCopy("bot");
-	eleventyConfig.addPassthroughCopy("rss.xml");
+	eleventyConfig.addPassthroughCopy("rss-old.xml");
 
 	// This will stop the default behaviour of foo.html being turned into foo/index.html
 	eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");

@@ -1,10 +1,10 @@
 ---
 title: news
-desc: fansite updates and news from my <a href="/rss.xml">RSS feed</a>
-cssFile: rss
+desc: fansite updates and news from my RSS feed</a>
 ---
-<h2>RSS feed</h2>
-<!-- make style for latest update -->
-<div id="rss" class="box">
-  <script src="//rss.bloople.net/?url=https%3A%2F%2Fsiinamota.doqmeat.com%2Frss.xml&limit=40&showtitle=false&forceutf8=true&type=js"></script>
-</div>
+<h2>site news - <a href="/site-rss.xml">RSS</a></h2>
+{% for post in collections.site_news reversed %}
+<h3>{{ post.date | postDate }} - <a href="https://siinamota.doqmeat.com/{{ post.data.link }}">{{ post.data.title }}</a></h3>
+<p>{{ post.content }}</p>
+<hr>
+{% endfor %}

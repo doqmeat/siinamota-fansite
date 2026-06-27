@@ -1,0 +1,21 @@
+---
+permalink: rss.xml
+layout:
+---
+<rss version="2.0">
+    <channel>
+        <title>siinamota fansite RSS</title>
+        <description>RSS feed for news about the website</description>
+        <link>https://siinamota.doqmeat.com/</link>
+{% for post in collections.site_news %}
+        <item>
+            <title>{{ post.data.title }}</title>
+            <description>{{ post.content | xml_escape }}</description>
+            <link>https://siinamota.doqmeat.com/{{ post.data.link }}</link>
+            <guid>{{ post.date | date:"%y%m%d","UCT" }}</guid>
+            <pubDate>{{ post.date | date:"%a, %e %B %Y","UCT" }} 00:00:00 -0400</pubDate>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
+         

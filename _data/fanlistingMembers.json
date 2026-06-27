@@ -1,7 +1,39 @@
 {
-  "pending": 4,
+  "pending": 0,
   "members":  [
-                                  {
+                   {
+      "name": "Digi",
+      "fav_song": "Help Yourself to Seconds",
+      "fav_album": "award strobe hello",
+      "country":"United Kingdom",
+      "email": "digirainboe (at) protonmail (dot) com",
+      "website": "https://rainboe.nekoweb.org/"
+    },
+               {
+      "name": "charlie",
+      "fav_song": "Hepatica, In My Head",
+      "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",
+      "country":"Mexico",
+      "email": "",
+      "website": ""
+    },
+           {
+      "name": "zed",
+      "fav_song": "yume no manimanii",
+      "fav_album": "夢のまにまに / yume no manimani",
+      "country":"Australia",
+      "email": "",
+      "website": "https://ohrade.neocities.org"
+    },
+       {
+      "name": "sera",
+      "fav_song": "soreha mahirunosuisei",
+      "fav_album": "故に / therefor.",
+      "country":"United States",
+      "email": "",
+      "website": "https://sayaka.nekoweb.org"
+    },
+   {
       "name": "Echo Higgins",
       "fav_song": "Nee",
       "fav_album": "アルターワー･セツナポップ / alterour setsuna pop",

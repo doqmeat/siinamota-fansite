@@ -2,7 +2,7 @@
   "name": "siinamota fansite",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx pagefind --site _site && npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy && npx pagefind --site _site",
     "incr":"npx @11ty/eleventy --serve --incremental"
   },
   "repository": {

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>siinamota fansite</title>
+    <link>https://siinamota.doqmeat.com</link>
+    <description>des' siinamota fansite</description>
+
+    <item>
+      <title>27.dec.25 - site is now built with 11ty!</title>
+      <link>https://siinamota.doqmeat.com/</link>
+      <description>converted my site into one that is made with the static site generator 11ty and also gave it a new refreshed look! this will make updating and creating pages MUCH easier. will keep giving it minor updates in the coming days.</description>
+      <pubDate>Sat, 27 dec 2025 01:25:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>17.jun.25 - buttons</title>
+      <link>https://siinamota.doqmeat.com/info/index.html#buttons</link>
+      <description>made some buttons for the fansite!</description>
+      <pubDate>Tue, 17 jun 2025 19:25:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>11.may.25 - siinamota fanzine pre-order!</title>
+      <link>https://siinamotazine.bigcartel.com/</link>
+      <description>pre-orders opened til may 22! i'm not directly affiliated with the fanzine but i do want to give the word out since it is being organized by people i know!</description>
+      <pubDate>Sun, 11 May 2025 00:44:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>16.mar.25 - sepia record and remodel pics added</title>
+      <link>https://siinamota.doqmeat.com/scans</link>
+      <description>added some pics i've found online for sepia record and the remodel version</description>
+      <pubDate>Sun, 16 Mar 2025 13:14:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>17.nov.24 - alterour setsuna pop regular version scans</title>
+      <link>https://siinamota.doqmeat.com/scans#setsuna-cd</link>
+      <description>added scans for alterour setsuna pop (regular version) and uploaded it to archive.org!</description>
+      <pubDate>Sun, 17 Nov 2024 22:57:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>02.nov.24 - fansite vlog</title>
+      <link>https://www.youtube.com/watch?v=BCFHsCVqDV0</link>
+      <description>recorded a vlog with my phone (snipping tool was not behaving) about the progress with the fansite so far. &#x3C;br&#x3E; &#x3C;iframe width=&#x22;100%&#x22; height=&#x22;315&#x22; src=&#x22;https://www.youtube.com/embed/BCFHsCVqDV0?si=7I-fgjuN3TTD9Dz-&#x22; title=&#x22;YouTube video player&#x22; frameborder=&#x22;0&#x22; allow=&#x22;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#x22; referrerpolicy=&#x22;strict-origin-when-cross-origin&#x22; allowfullscreen&#x3E;&#x3C;/iframe&#x3E;</description>
+      <pubDate>Sat, 02 Nov 2024 22:57:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>02.nov.24 - scans hyperlinks</title>
+      <link>https://siinamota.doqmeat.com/scans</link>
+      <description>made a minor change in the code so now you can hyper link to each album. also added bgs to pages missing them!</description>
+      <pubDate>Sat, 02 Nov 2024 17:06:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>02.nov.24 - info + news page</title>
+      <link>https://siinamota.doqmeat.com/</link>
+      <description>moved index paragragh about fansite to newly created &#x3C;a href=&#x22;/info&#x22;&#x3E;info&#x3C;/a&#x3E; page + created a &#x3C;a href=&#x22;/news&#x22;&#x3E;news&#x3C;/a&#x3E; page + shamelessly copy pasted bio written for fanlisting to the homepage.</description>
+      <pubDate>Sat, 02 Nov 2024 01:06:00 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>02.oct.24 - chatroom</title>
+      <link>https://siinamota.doqmeat.com/chatroom</link>
+      <description>added a chatroom page with a chatbox and a siinamota playlist!</description>
+      <pubDate>Wed, 02 Oct 2024 01:19:34 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>25.sep.24 - interviews now live</title>
+      <link>https://siinamota.doqmeat.com/interviews</link>
+      <description>somewhat finished my interviews page! still need to add the archived links. just in case.</description>
+      <pubDate>Wed, 25 Sep 2024 00:12:34 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>05.sep.24 - scans page completed</title>
+      <link>https://siinamota.doqmeat.com/scans</link>
+      <description>moved everything from notion of for the scans!!!</description>
+      <pubDate>Fri, 06 Sep 2024 00:06:34 -0400</pubDate>
+    </item>
+
+    <item>
+      <title>10.jun.24 - siinamota fanlisting</title>
+      <link>https://siinamota.doqmeat.com/fanlisting</link>
+      <description>finished the siinamota fanlisting: i walk because i was born</description>
+      <pubDate>Mon, 10 Jun 2024 15:04:00 -0400</pubDate>
+    </item>
+  </channel>
+</rss>
