@@ -13,3 +13,9 @@ layout: main.html
 </section>
 
 {{ content }}
+
+{% if playlist %}
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="/_files/javascript/discography/{{ playlist }}.js"></script>
+<script src="/_files/javascript/music.js"></script>
+{% endif %}

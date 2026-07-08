@@ -1,4 +1,7 @@
 {
-  "permalink":false,
-  "tags":["site_news"]
+  "permalink": false,
+  "tags": [
+    "site_news"
+  ],
+  "layout": false
 }

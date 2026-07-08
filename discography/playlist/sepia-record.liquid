@@ -1,0 +1,9 @@
+const playlist = [
+	{% for song in discography.sepia_record %}
+    {
+      title: "{{ song.title }}",
+      id: "{{ song.id }}",
+      albumTrack: {{ song.albumTrack }}
+    },
+  {% endfor %}
+];

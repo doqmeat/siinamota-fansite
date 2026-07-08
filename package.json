@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx @11ty/eleventy && npx pagefind --site _site",
-    "incr":"npx @11ty/eleventy --serve --incremental"
+    "serve":"npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",

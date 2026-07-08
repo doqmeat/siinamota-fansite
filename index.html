@@ -3,11 +3,21 @@ title: siinamota fansite
 desc: a fansite managed by des for producer siinamota / powapowa_p!
 cssFile: index
 ---
-
+<!-- make post date lowercase -->
+<!-- css to video player -->
 <h2>welcome!</h2>
 <p>this is a fansite dedicated to lyricist, composer, artists, and vocaloid producer <b>siinamota</b> / <b>powapowaP</b> !</p>
 <center><a href="/info/index.html#buttons"><img title="link for more buttons" src="/_files/buttons/siinamotafansite200x40.png" alt="siinamota fansite button" style="max-width:100%"></a></center>
 
+<h3>latest site news</h3>
+{% for post in collections.site_news reversed %}
+<details>
+  <summary>{{ post.date | postDate }} - <a href="https://siinamota.doqmeat.com/{{ post.data.link }}">{{ post.data.title }}</a></summary>
+  <p>{{ post.content }}</p>
+</details>
+{% if forloop.index0 == 1 %}{% break %}{% endif %}
+<hr>
+{% endfor %}
 <h3>latest siinamota news</h3>
 <p>a lost song has been found recently!</p>
 <iframe width="100%" height="200px" src="https://www.youtube.com/embed/uZ-j2ExRK8I?list=PLJJj3iCewWn3elKMPEZaZyT1vDvXB3uSc" title="(AUDIO-ONLY REPRINT) 【初音ミク】４０連休チキンレース【オリジナル】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -224,15 +224,18 @@ hr {
 	border: 1px dashed var(--pink);
 }
 
-#s-m-t-tooltip {
-	max-width: 200px;
-	text-align: center;
-	z-index: 9999;
-	margin: 30px 15px 7px 12px;
-	padding: 5px;
-	border-radius: 10px;
-	color: white;
-	background: var(--pink);
+button {
+	background-color: var(--yellow);
+	border: 1px solid var(--pink);
+	color: var(--bg);
+	font-family: inherit;
+	cursor: help;
+	border-radius: 4px;
+	margin: 3px;
+	&:hover {
+		color: var(--yellow);
+		background-color: var(--bg);
+	}
 }
 
 @media only screen and (max-width: 600px) {

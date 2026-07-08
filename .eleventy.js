@@ -23,7 +23,10 @@ module.exports = function (eleventyConfig) {
 
 	// custom page.date ----- {{ page.date | postDate }}
 	eleventyConfig.addFilter("postDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("utc").toFormat("dd.MMM.yy");
+		return DateTime.fromJSDate(dateObj)
+			.setZone("utc")
+			.toFormat("dd.MMM.yy")
+			.toLowerCase();
 	});
 
 	// fanlisting date
