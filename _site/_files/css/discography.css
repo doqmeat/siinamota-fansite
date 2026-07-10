@@ -53,3 +53,20 @@ section#info {
 		width: 190px;
 	}
 }
+
+/* vide player */
+
+#video-player {
+	h4 {
+		text-align: center;
+	}
+	h5 {
+		margin: 3px;
+	}
+	color: var(--bg);
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--red);
+	button {
+	}
+}

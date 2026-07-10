@@ -16,6 +16,7 @@ function onYouTubeIframeAPIReady() {
 function playSong() {
 	player.playVideo();
 }
+
 function pauseSong() {
 	player.pauseVideo();
 }
@@ -33,7 +34,7 @@ function loadSong(index) {
 
 function updateTitle() {
 	document.getElementById("song-title").innerText =
-		"Track: " + playlist[currentIndex].title;
+		"♬ˎˊ˗ " + playlist[currentIndex].title;
 }
 
 function onStateChange(event) {
