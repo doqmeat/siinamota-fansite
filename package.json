@@ -2,8 +2,9 @@
   "name": "siinamota fansite",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx @11ty/eleventy && npx pagefind --site _site",
-    "serve":"npx @11ty/eleventy --serve"
+    "build": "npx @11ty/eleventy && npx pagefind --site ../nekoweb-git/siinamota.doqmeat.com",
+    "serve": "npx @11ty/eleventy --serve",
+    "delete": "rm -rf ../nekoweb-git/siinamota.doqmeat.com"
   },
   "repository": {
     "type": "git",

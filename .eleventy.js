@@ -33,4 +33,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("fanlistingDate", (dateObj) => {
 		return DateTime.fromJSDate(dateObj).setZone("utc").toFormat("dd MMMM yyyy");
 	});
+	 
+	return {
+                dir: {
+                        output: "../nekoweb-git/siinamota.doqmeat.com/",
+                },
+        };
+
 };
